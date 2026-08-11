@@ -1,0 +1,18 @@
+{
+  "model": "fal-ai/bytedance/seedance/v1.5/pro/image-to-video",
+  "payload": {
+    "prompt": "The small blue clay character with the mustard-yellow knit scarf walks slowly and steadily across the pale desert toward the huge glowing stone doorway in the distance. Calm, contemplative pace, natural walk cycle. The camera tracks smoothly behind him at a fixed distance, low over the sand. Fine sand dust drifts in the warm golden-hour light. The character's body, scarf and proportions stay exactly consistent throughout, no morphing. Minimalist surreal 3D render style throughout.",
+    "image_url": "https://v3b.fal.media/files/b/0aa23e04/1F6VX6OEuCJnEu-3uFpZe_shot-door.png",
+    "duration": "5",
+    "resolution": "1080p",
+    "aspect_ratio": "auto",
+    "generate_audio": false
+  },
+  "request_id": "019f6196-8de3-71f1-a228-eb05f95a225c",
+  "source_url": "https://v3b.fal.media/files/b/0aa23e0c/TlWkmRjBuBfAJRPJtK3eC_video.mp4",
+  "derived_cost_usd": 0.2916,
+  "billed_cost_usd": null,
+  "elapsed_s": 87.5,
+  "error": null,
+  "created": "2026-07-14T20:06:16"
+}

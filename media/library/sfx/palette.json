@@ -1,0 +1,429 @@
+{
+  "note": "Generation recipes for the shared SFX library (assets/sfx/). SOURCE OF TRUTH for what the library should contain: one entry per reusable, generically-named sound. tools/gen_sfx.py reads this, generates any MISSING clip via the ElevenLabs Sound Effects API, loudness-normalizes it, and writes assets/sfx/catalog.json. Organized by FUNCTION (what the sound's JOB is), after the pro-editor model (see brand.md §10): motion (whoosh) · tension (riser) · emphasis (impact/reveal) · snap (click). page-flip + chime-reward are brand-specific extras. Brand taste: calm/premium (Linear/Anthropic/Vercel) — soft, understated, felt-not-heard; we take the pro's STRUCTURE + layering but keep our restraint (no cymbal-urgency risers, no trailer slams).",
+  "defaults": {
+    "prompt_influence": 0.45,
+    "target_lufs": -20.0,
+    "ceiling_dbfs": -1.5,
+    "model": "eleven_text_to_sound_v2"
+  },
+  "sounds": [
+    {
+      "id": "whoosh-soft",
+      "category": "motion",
+      "duration_s": 0.7,
+      "tags": [
+        "whoosh",
+        "transition",
+        "cutaway",
+        "air",
+        "swipe",
+        "motion"
+      ],
+      "prompt": "A short, soft air whoosh for a scene transition. Smooth gentle movement of air in the low-mids, premium and restrained, not aggressive or bright. Quick and clean, no metallic ring, no music."
+    },
+    {
+      "id": "whoosh-wind",
+      "category": "motion",
+      "duration_s": 1.2,
+      "tags": [
+        "whoosh",
+        "wind",
+        "glide",
+        "float",
+        "aerial",
+        "drawn-out",
+        "motion"
+      ],
+      "prompt": "A soft, drawn-out wind whoosh for a gliding transition. Smooth airy sustained movement of air, gentle and premium, like floating through the shot. Longer and softer than a quick whoosh, no aggression, no metallic ring, no music."
+    },
+    {
+      "id": "riser-soft",
+      "category": "tension",
+      "duration_s": 1.4,
+      "tags": [
+        "riser",
+        "swell",
+        "build",
+        "anticipation",
+        "tension",
+        "teaser"
+      ],
+      "prompt": "A short, gentle upward riser building light anticipation. Smooth airy swell, calm and premium, subtle, resolving softly at the top. About one second, not dramatic, not loud, no big hit, no cymbal."
+    },
+    {
+      "id": "impact-soft",
+      "category": "emphasis",
+      "duration_s": 1.0,
+      "tags": [
+        "impact",
+        "hit",
+        "emphasis",
+        "soft",
+        "thud",
+        "underline"
+      ],
+      "prompt": "A soft, warm low impact marking a moment. Gentle rounded thud with a short natural tail, premium and restrained, felt more than heard. Not a big cinematic boom, no harsh slam, no music."
+    },
+    {
+      "id": "impact-deep-soft",
+      "category": "emphasis",
+      "duration_s": 1.6,
+      "tags": [
+        "impact",
+        "deep",
+        "reveal",
+        "payoff",
+        "emphasis",
+        "long-tail",
+        "boom"
+      ],
+      "prompt": "A soft, deep impact with a gentle long tail, for a meaningful reveal. A warm low thud that blooms and decays smoothly, premium and restrained, felt in the chest but never loud. Not a harsh trailer slam, no distortion, no music."
+    },
+    {
+      "id": "pop-reveal",
+      "category": "emphasis",
+      "duration_s": 0.5,
+      "tags": [
+        "pop",
+        "reveal",
+        "appear",
+        "ui",
+        "result",
+        "emphasis"
+      ],
+      "prompt": "A gentle soft pop for revealing content on screen. Rounded warm bubble pop with a tiny subtle sparkle, premium UI reveal. Short and clean, not loud, dry, no music."
+    },
+    {
+      "id": "ui-click-soft",
+      "category": "snap",
+      "duration_s": 0.5,
+      "tags": [
+        "ui",
+        "click",
+        "menu",
+        "tick",
+        "select",
+        "snap"
+      ],
+      "prompt": "A single soft, clean UI click. Subtle muted mechanical tick, premium and understated, like a menu opening in a high-end app. Very short, dry, no reverb, no music."
+    },
+    {
+      "id": "ui-toggle-on",
+      "category": "snap",
+      "duration_s": 0.6,
+      "tags": [
+        "ui",
+        "toggle",
+        "switch",
+        "on",
+        "click",
+        "enable",
+        "snap"
+      ],
+      "prompt": "A soft, satisfying toggle switch flipping on. Gentle rounded click with a tiny positive upward tail, premium product UI sound. Short and clean, minimal, dry, no music."
+    },
+    {
+      "id": "ui-send",
+      "category": "snap",
+      "duration_s": 0.6,
+      "tags": [
+        "ui",
+        "send",
+        "submit",
+        "swish",
+        "message",
+        "snap"
+      ],
+      "prompt": "A soft, quick message-send confirmation. Subtle airy swish with a light tick, like sending a chat message in a premium app. Very short, understated, dry, no music."
+    },
+    {
+      "id": "page-flip",
+      "category": "foley",
+      "duration_s": 0.6,
+      "tags": [
+        "page",
+        "flip",
+        "paper",
+        "book",
+        "turn",
+        "foley"
+      ],
+      "prompt": "A single soft paper page turn. Light natural page flip of a storybook, gentle and clean, close-miked, short, dry, no music."
+    },
+    {
+      "id": "chime-reward",
+      "category": "reward",
+      "duration_s": 0.9,
+      "tags": [
+        "chime",
+        "reward",
+        "positive",
+        "free",
+        "gift",
+        "success"
+      ],
+      "prompt": "A soft positive reward chime, two gentle warm bell notes rising, premium and understated, like unlocking a free gift in a polished app. Short, clean, no long reverb tail, no music bed."
+    },
+    {
+      "id": "chess-piece-thock",
+      "category": "foley",
+      "duration_s": 0.5,
+      "tags": [
+        "chess",
+        "wood",
+        "piece",
+        "move",
+        "thock",
+        "board",
+        "foley"
+      ],
+      "prompt": "A single wooden chess piece placed firmly on a wooden chess board. One short dry warm wooden knock, close-mic, clean and satisfying, no room echo, no voices, no music."
+    },
+    {
+      "id": "chess-piece-capture",
+      "category": "foley",
+      "duration_s": 0.7,
+      "tags": [
+        "chess",
+        "wood",
+        "capture",
+        "take",
+        "double-knock",
+        "board",
+        "foley"
+      ],
+      "prompt": "A wooden chess piece capturing another: two wooden pieces briefly knock together, then one is set down firmly on a wooden board. A decisive double wooden clack, close-mic, clean, no room echo, no music."
+    },
+    {
+      "id": "whoosh-reverse",
+      "category": "motion",
+      "duration_s": 0.9,
+      "tags": [
+        "whoosh",
+        "reverse",
+        "rewind",
+        "backwards",
+        "suck",
+        "motion"
+      ],
+      "prompt": "A soft reversed air whoosh, like time rewinding: a smooth backwards-sucking sweep that rises and cuts off cleanly. Restrained and premium, low-mids, no metallic ring, no music."
+    },
+    {
+      "id": "clock-tick-soft",
+      "category": "texture",
+      "duration_s": 2.2,
+      "tags": [
+        "clock",
+        "tick",
+        "tock",
+        "countdown",
+        "timer",
+        "chess-clock",
+        "texture"
+      ],
+      "prompt": "A soft mechanical chess clock ticking gently: about three calm tick-tock cycles, muted, precise, quiet, close-mic, no bell, no music."
+    },
+    {
+      "id": "knock-solid",
+      "category": "foley",
+      "duration_s": 0.6,
+      "tags": [
+        "knock",
+        "door",
+        "probe",
+        "thud",
+        "single",
+        "foley"
+      ],
+      "prompt": "A single firm knock on a solid wooden door. One short dry muted knock, close-mic, low and rounded, serious not playful, no echo, no voices, no music."
+    },
+    {
+      "id": "glitch-zap",
+      "category": "texture",
+      "duration_s": 0.7,
+      "tags": [
+        "glitch",
+        "static",
+        "zap",
+        "error",
+        "digital",
+        "corrupt",
+        "texture"
+      ],
+      "prompt": "A short digital glitch stutter: a quick electronic static zap with a subtle pitch drop, dark and restrained, like a video signal corrupting for half a second. Clean, not harsh or screechy, no music."
+    },
+    {
+      "id": "scan-hum",
+      "category": "tension",
+      "duration_s": 2.6,
+      "tags": [
+        "scan",
+        "hum",
+        "sweep",
+        "ominous",
+        "radar",
+        "security",
+        "tension"
+      ],
+      "prompt": "A low ominous electronic scanning hum sweeping slowly, like a security scanner passing over a screen. Dark, quiet, subtly pulsing, about two and a half seconds, fades out cleanly, no melody, no music."
+    },
+    {
+      "id": "trap-snap",
+      "category": "snap",
+      "duration_s": 0.7,
+      "tags": [
+        "trap",
+        "snap",
+        "shut",
+        "latch",
+        "catch",
+        "mechanism",
+        "snap"
+      ],
+      "prompt": "A metallic trap snapping shut once: a fast sharp mechanical snap with a solid latch click at the end. Tight and decisive, close-mic, short, dry, not cartoonish, no music."
+    },
+    {
+      "id": "stamp-hit",
+      "category": "emphasis",
+      "duration_s": 0.6,
+      "tags": [
+        "stamp",
+        "verdict",
+        "slam",
+        "mark",
+        "blocked",
+        "emphasis"
+      ],
+      "prompt": "A rubber stamp slamming once onto paper on a desk: a firm dry thump with a subtle paper slap, decisive and clean, close-mic, short, no echo, no music."
+    },
+    {
+      "id": "keys-typing-soft",
+      "category": "texture",
+      "duration_s": 2.2,
+      "tags": [
+        "keyboard",
+        "typing",
+        "keys",
+        "terminal",
+        "code",
+        "prompt",
+        "texture"
+      ],
+      "prompt": "Soft rapid keyboard typing on a quiet mechanical keyboard, about two seconds of natural fast typing, muted and premium, close-mic, no voices, no music."
+    },
+    {
+      "id": "sparkle-soft",
+      "category": "emphasis",
+      "duration_s": 0.9,
+      "tags": [
+        "sparkle",
+        "twinkle",
+        "magic",
+        "shimmer",
+        "whimsical",
+        "story"
+      ],
+      "prompt": "A light delicate magical sparkle twinkle — a soft shimmering glisten of tiny bright bell-like particles, gentle airy and warm, whimsical and quick, storybook, no harshness, no music."
+    },
+    {
+      "id": "chime-magic",
+      "category": "reward",
+      "duration_s": 1.6,
+      "tags": [
+        "chime",
+        "magic",
+        "wonder",
+        "glockenspiel",
+        "hope",
+        "story"
+      ],
+      "prompt": "A gentle magical chime — a soft warm bell and glockenspiel twinkle that gently rises and sparkles, wondrous tender and comforting like a firefly's glow appearing in the dark, delicate, no harshness, no music."
+    },
+    {
+      "id": "wind-soft",
+      "category": "texture",
+      "duration_s": 2.2,
+      "tags": [
+        "wind",
+        "breeze",
+        "trees",
+        "nature",
+        "ambient",
+        "story"
+      ],
+      "prompt": "A soft gentle breeze moving through trees at dusk — a light airy wind rustling leaves, calm and natural, a little hushed and lonely, no howling, no gusts, no music."
+    },
+    {
+      "id": "owl-hoot",
+      "category": "foley",
+      "duration_s": 1.8,
+      "tags": [
+        "owl",
+        "hoot",
+        "night",
+        "forest",
+        "nature",
+        "story"
+      ],
+      "prompt": "A soft distant owl hooting at night in a quiet forest, two gentle far-away hoots, calm and natural and a little lonely, spacious, no music."
+    },
+    {
+      "id": "stream-soft",
+      "category": "foley",
+      "duration_s": 2.6,
+      "tags": [
+        "stream",
+        "brook",
+        "water",
+        "trickle",
+        "nature",
+        "story"
+      ],
+      "prompt": "A gentle babbling forest brook — soft trickling water flowing over small stones, calm continuous and soothing, close but gentle, natural, no music."
+    },
+    {
+      "id": "warm-shimmer",
+      "category": "reward",
+      "duration_s": 2.2,
+      "tags": [
+        "shimmer",
+        "warm",
+        "swell",
+        "heartfelt",
+        "embrace",
+        "story"
+      ],
+      "prompt": "A warm tender shimmer swell — a soft glowing rise of gentle bell and harp-like sparkle blooming warmly, heartfelt and comforting like a loving embrace, emotional and soft, no drums, no music."
+    },
+    {
+      "id": "pencil-scribble",
+      "category": "foley",
+      "duration_s": 1.6,
+      "tags": [
+        "pencil",
+        "scribble",
+        "draw",
+        "sketch",
+        "route",
+        "paper",
+        "foley"
+      ],
+      "prompt": "A pencil quickly sketching a dashed line across rough paper, light scratchy graphite strokes in short bursts, close-miked, dry, natural, no music."
+    },
+    {
+      "id": "launch-thump",
+      "category": "impact",
+      "duration_s": 1.0,
+      "tags": [
+        "cannon",
+        "launch",
+        "rocket",
+        "fire",
+        "mortar",
+        "thump",
+        "physics"
+      ],
+      "prompt": "A deep muffled launch thump, like a distant mortar or a rocket igniting far away: a soft round low-frequency push with a short body and a gentle tail. Warm and restrained, no sharp crack, no explosion debris, no reverb tail of a war film. Dry, clean, close to a felt mallet on a large drum."
+    }
+  ]
+}

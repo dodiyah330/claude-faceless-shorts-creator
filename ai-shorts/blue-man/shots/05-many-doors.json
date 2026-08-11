@@ -1,0 +1,14 @@
+{
+  "model": "fal-ai/bytedance/seedance/v1.5/pro/image-to-video",
+  "payload": {
+    "prompt": "The single tiny blue clay character walks calmly along the pale path, passing beneath the first huge glowing stone doorframe as the endless line of doorways recedes to the horizon under the purple and orange dusk sky. There is EXACTLY ONE character in the scene for the entire shot - no other figures, people or characters ever appear. Camera follows slowly and smoothly behind him at a fixed distance. The character's body, scarf and proportions stay exactly consistent throughout, no morphing. Minimalist surreal 3D render style throughout, calm contemplative mood.",
+    "aspect_ratio": "auto",
+    "duration": "8",
+    "resolution": "1080p",
+    "generate_audio": false,
+    "image_url": "https://v3b.fal.media/files/b/0aa23e89/agcIjwITrSe57-H4bKRsv_05-many-doors.png"
+  },
+  "request_id": "019f61b0-6843-7d02-9b15-1961c68e996a",
+  "source_url": "https://v3b.fal.media/files/b/0aa23ebb/kYvlIv3CXYPGDdEfW3nu-_video.mp4",
+  "created": "2026-07-14T20:35:24"
+}

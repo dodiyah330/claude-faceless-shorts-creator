@@ -1,0 +1,31 @@
+{
+  "name": "video-editor-remotion",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Remotion project for the AI Video Editor — renders VidTSX-style shots in bulk.",
+  "scripts": {
+    "gen": "node scripts/gen-registry.mjs",
+    "studio": "node scripts/gen-registry.mjs && remotion studio src/index.ts",
+    "render": "node scripts/gen-registry.mjs && node scripts/render-all.mjs",
+    "still": "node scripts/gen-registry.mjs && node scripts/render-all.mjs --still"
+  },
+  "dependencies": {
+    "@remotion/bundler": "^4.0.486",
+    "@remotion/cli": "^4.0.486",
+    "@remotion/google-fonts": "^4.0.486",
+    "@remotion/paths": "^4.0.486",
+    "@remotion/renderer": "^4.0.486",
+    "@remotion/shapes": "^4.0.486",
+    "chroma-js": "^3.2.0",
+    "lucide-react": "^1.23.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.486"
+  },
+  "devDependencies": {
+    "@types/chroma-js": "^3.1.2",
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "typescript": "^5.9.3"
+  }
+}

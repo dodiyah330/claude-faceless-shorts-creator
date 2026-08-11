@@ -1,0 +1,762 @@
+{
+  "id": "short-12-orbit",
+  "title": "Astronauts Aren't Weightless. They're Falling.",
+  "composition": "Short12Orbit",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 42
+  },
+  "voiceStatus": "elevenlabs:TX3LPaxmHKxFdv7VOQHJ",
+  "voicePlan": "elevenlabs:TX3LPaxmHKxFdv7VOQHJ",
+  "vo": [
+    {
+      "beat": "hook",
+      "text": "Astronauts aren't weightless. They're falling.",
+      "start": 0.4,
+      "end": 2.85,
+      "words": [
+        {
+          "w": "Astronauts",
+          "start": 0.4,
+          "end": 0.922
+        },
+        {
+          "w": "aren't",
+          "start": 0.978,
+          "end": 1.194
+        },
+        {
+          "w": "weightless.",
+          "start": 1.251,
+          "end": 1.773
+        },
+        {
+          "w": "They're",
+          "start": 1.818,
+          "end": 2.068
+        },
+        {
+          "w": "falling.",
+          "start": 2.101,
+          "end": 2.85
+        }
+      ]
+    },
+    {
+      "beat": "hook",
+      "text": "They just keep missing the Earth.",
+      "start": 2.9,
+      "end": 4.89,
+      "words": [
+        {
+          "w": "They",
+          "start": 2.9,
+          "end": 3.063
+        },
+        {
+          "w": "just",
+          "start": 3.121,
+          "end": 3.26
+        },
+        {
+          "w": "keep",
+          "start": 3.295,
+          "end": 3.446
+        },
+        {
+          "w": "missing",
+          "start": 3.492,
+          "end": 3.736
+        },
+        {
+          "w": "the",
+          "start": 3.771,
+          "end": 3.84
+        },
+        {
+          "w": "Earth.",
+          "start": 3.887,
+          "end": 4.897
+        }
+      ]
+    },
+    {
+      "beat": "setup",
+      "text": "Newton figured this out with a cannon.",
+      "start": 5.2,
+      "end": 7.0,
+      "words": [
+        {
+          "w": "Newton",
+          "start": 5.2,
+          "end": 5.467
+        },
+        {
+          "w": "figured",
+          "start": 5.525,
+          "end": 5.78
+        },
+        {
+          "w": "this",
+          "start": 5.804,
+          "end": 5.92
+        },
+        {
+          "w": "out",
+          "start": 5.966,
+          "end": 6.071
+        },
+        {
+          "w": "with",
+          "start": 6.094,
+          "end": 6.187
+        },
+        {
+          "w": "a",
+          "start": 6.222,
+          "end": 6.245
+        },
+        {
+          "w": "cannon.",
+          "start": 6.291,
+          "end": 7.011
+        }
+      ]
+    },
+    {
+      "beat": "setup",
+      "text": "Fire it slow, and the ball lands.",
+      "start": 8.1,
+      "end": 10.51,
+      "words": [
+        {
+          "w": "Fire",
+          "start": 8.1,
+          "end": 8.46
+        },
+        {
+          "w": "it",
+          "start": 8.495,
+          "end": 8.564
+        },
+        {
+          "w": "slow,",
+          "start": 8.622,
+          "end": 9.122
+        },
+        {
+          "w": "and",
+          "start": 9.157,
+          "end": 9.319
+        },
+        {
+          "w": "the",
+          "start": 9.365,
+          "end": 9.435
+        },
+        {
+          "w": "ball",
+          "start": 9.493,
+          "end": 9.714
+        },
+        {
+          "w": "lands.",
+          "start": 9.772,
+          "end": 10.515
+        }
+      ]
+    },
+    {
+      "beat": "setup",
+      "text": "Fire it faster, it lands further away.",
+      "start": 10.9,
+      "end": 13.66,
+      "words": [
+        {
+          "w": "Fire",
+          "start": 10.9,
+          "end": 11.169
+        },
+        {
+          "w": "it",
+          "start": 11.199,
+          "end": 11.259
+        },
+        {
+          "w": "faster,",
+          "start": 11.298,
+          "end": 11.836
+        },
+        {
+          "w": "it",
+          "start": 11.936,
+          "end": 12.036
+        },
+        {
+          "w": "lands",
+          "start": 12.086,
+          "end": 12.295
+        },
+        {
+          "w": "further",
+          "start": 12.335,
+          "end": 12.584
+        },
+        {
+          "w": "away.",
+          "start": 12.634,
+          "end": 13.65
+        }
+      ]
+    },
+    {
+      "beat": "quiz",
+      "text": "Pause. What if you fire it fast enough?",
+      "start": 13.7,
+      "end": 17.18,
+      "words": [
+        {
+          "w": "Pause.",
+          "start": 13.7,
+          "end": 14.246
+        },
+        {
+          "w": "What",
+          "start": 15.058,
+          "end": 15.233
+        },
+        {
+          "w": "if",
+          "start": 15.267,
+          "end": 15.314
+        },
+        {
+          "w": "you",
+          "start": 15.349,
+          "end": 15.418
+        },
+        {
+          "w": "fire",
+          "start": 15.476,
+          "end": 15.72
+        },
+        {
+          "w": "it",
+          "start": 15.755,
+          "end": 15.825
+        },
+        {
+          "w": "fast",
+          "start": 15.859,
+          "end": 16.138
+        },
+        {
+          "w": "enough?",
+          "start": 16.196,
+          "end": 17.183
+        }
+      ]
+    },
+    {
+      "beat": "reveal",
+      "text": "Three kilometres a second. Five. Seven.",
+      "start": 17.6,
+      "end": 22.14,
+      "words": [
+        {
+          "w": "Three",
+          "start": 17.6,
+          "end": 17.855
+        },
+        {
+          "w": "kilometres",
+          "start": 17.902,
+          "end": 18.366
+        },
+        {
+          "w": "a",
+          "start": 18.413,
+          "end": 18.448
+        },
+        {
+          "w": "second.",
+          "start": 18.506,
+          "end": 19.005
+        },
+        {
+          "w": "Five.",
+          "start": 19.7,
+          "end": 20.246
+        },
+        {
+          "w": "Seven.",
+          "start": 20.943,
+          "end": 22.15
+        }
+      ]
+    },
+    {
+      "beat": "reveal",
+      "text": "At seven point seven, it never lands.",
+      "start": 22.2,
+      "end": 24.8,
+      "words": [
+        {
+          "w": "At",
+          "start": 22.2,
+          "end": 22.386
+        },
+        {
+          "w": "seven",
+          "start": 22.455,
+          "end": 22.711
+        },
+        {
+          "w": "point",
+          "start": 22.757,
+          "end": 22.966
+        },
+        {
+          "w": "seven,",
+          "start": 23.024,
+          "end": 23.373
+        },
+        {
+          "w": "it",
+          "start": 23.419,
+          "end": 23.547
+        },
+        {
+          "w": "never",
+          "start": 23.628,
+          "end": 23.872
+        },
+        {
+          "w": "lands.",
+          "start": 23.93,
+          "end": 24.801
+        }
+      ]
+    },
+    {
+      "beat": "reveal",
+      "text": "It just falls around the planet. That's orbit.",
+      "start": 25.8,
+      "end": 28.68,
+      "words": [
+        {
+          "w": "It",
+          "start": 25.8,
+          "end": 25.951
+        },
+        {
+          "w": "just",
+          "start": 25.997,
+          "end": 26.137
+        },
+        {
+          "w": "falls",
+          "start": 26.172,
+          "end": 26.415
+        },
+        {
+          "w": "around",
+          "start": 26.45,
+          "end": 26.648
+        },
+        {
+          "w": "the",
+          "start": 26.671,
+          "end": 26.74
+        },
+        {
+          "w": "planet.",
+          "start": 26.764,
+          "end": 27.193
+        },
+        {
+          "w": "That's",
+          "start": 27.344,
+          "end": 27.588
+        },
+        {
+          "w": "orbit.",
+          "start": 27.634,
+          "end": 28.679
+        }
+      ]
+    },
+    {
+      "beat": "twist",
+      "text": "Up there, gravity is still nearly ninety percent as strong.",
+      "start": 29.8,
+      "end": 33.88,
+      "words": [
+        {
+          "w": "Up",
+          "start": 29.8,
+          "end": 29.986
+        },
+        {
+          "w": "there,",
+          "start": 30.044,
+          "end": 30.473
+        },
+        {
+          "w": "gravity",
+          "start": 30.752,
+          "end": 31.147
+        },
+        {
+          "w": "is",
+          "start": 31.205,
+          "end": 31.263
+        },
+        {
+          "w": "still",
+          "start": 31.298,
+          "end": 31.507
+        },
+        {
+          "w": "nearly",
+          "start": 31.576,
+          "end": 31.855
+        },
+        {
+          "w": "ninety",
+          "start": 31.936,
+          "end": 32.18
+        },
+        {
+          "w": "percent",
+          "start": 32.226,
+          "end": 32.517
+        },
+        {
+          "w": "as",
+          "start": 32.552,
+          "end": 32.61
+        },
+        {
+          "w": "strong.",
+          "start": 32.633,
+          "end": 33.887
+        }
+      ]
+    },
+    {
+      "beat": "twist",
+      "text": "Every second, the station falls four point three metres.",
+      "start": 34.0,
+      "end": 37.16,
+      "words": [
+        {
+          "w": "Every",
+          "start": 34.0,
+          "end": 34.256
+        },
+        {
+          "w": "second,",
+          "start": 34.305,
+          "end": 34.649
+        },
+        {
+          "w": "the",
+          "start": 34.777,
+          "end": 34.867
+        },
+        {
+          "w": "station",
+          "start": 34.916,
+          "end": 35.191
+        },
+        {
+          "w": "falls",
+          "start": 35.24,
+          "end": 35.437
+        },
+        {
+          "w": "four",
+          "start": 35.496,
+          "end": 35.683
+        },
+        {
+          "w": "point",
+          "start": 35.732,
+          "end": 35.909
+        },
+        {
+          "w": "three",
+          "start": 35.949,
+          "end": 36.116
+        },
+        {
+          "w": "metres.",
+          "start": 36.156,
+          "end": 37.15
+        }
+      ]
+    },
+    {
+      "beat": "payoff",
+      "text": "And the Earth curves away by exactly the same amount.",
+      "start": 37.2,
+      "end": 40.07,
+      "words": [
+        {
+          "w": "And",
+          "start": 37.2,
+          "end": 37.386
+        },
+        {
+          "w": "the",
+          "start": 37.432,
+          "end": 37.502
+        },
+        {
+          "w": "Earth",
+          "start": 37.56,
+          "end": 37.757
+        },
+        {
+          "w": "curves",
+          "start": 37.815,
+          "end": 38.071
+        },
+        {
+          "w": "away",
+          "start": 38.117,
+          "end": 38.315
+        },
+        {
+          "w": "by",
+          "start": 38.373,
+          "end": 38.489
+        },
+        {
+          "w": "exactly",
+          "start": 38.582,
+          "end": 39.069
+        },
+        {
+          "w": "the",
+          "start": 39.116,
+          "end": 39.185
+        },
+        {
+          "w": "same",
+          "start": 39.22,
+          "end": 39.418
+        },
+        {
+          "w": "amount.",
+          "start": 39.452,
+          "end": 40.079
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "id": "hook",
+      "start": 0.0,
+      "end": 4.9,
+      "visual": "frame-0 composed: the CLOSED orbit already drawn around a real globe, the station riding it, a huge red arrow from the station pointing DOWN at Earth's centre, and the payoff stat in the subtitle (8.69 m/s2 = 88.5% of ground gravity). Punch-in settles 1.05 -> 1."
+    },
+    {
+      "id": "setup",
+      "start": 4.9,
+      "end": 13.6,
+      "visual": "THE REWIND: the orbit un-draws itself back to the launch point, the camera pushes IN 1.0 -> 2.8 anchored on the tower, and Newton's cannon appears on top of it. Fire at 3 km/s -> the ball arcs over the limb and LANDS (970 km downrange). Fire at 5 km/s -> lands further (1,950 km). Both arcs stay on the canvas; the speed ladder starts filling."
+    },
+    {
+      "id": "quiz",
+      "start": 13.6,
+      "end": 17.4,
+      "visual": "PauseCard — 'what if you fire it fast enough?'"
+    },
+    {
+      "id": "reveal",
+      "start": 17.4,
+      "end": 29.6,
+      "visual": "The ladder lights rung by rung as he names each speed. On 'Seven' the 7 km/s shot fires and the CAMERA PULLS BACK (2.8 -> 1.0) to keep up with it — it clears 5,180 km, a quarter of the way to the far side of the planet, and STILL lands. Then 7.67 km/s: the arc bends away exactly as fast as the Earth curves, wraps the globe, and CLOSES. The station appears on it. ORBIT stamp."
+    },
+    {
+      "id": "twist",
+      "start": 29.6,
+      "end": 40.7,
+      "visual": "The cannon, the arcs and the ladder clear away, leaving the clean orbit. The gravity chip lands: 8.69 m/s2, 88.5% of surface gravity — it is NOT weightlessness. Then the equality panel: it falls 4.35 m in one second, and the Earth curves away 4.35 m in that same second. The '=' punches in. That equality IS orbit."
+    },
+    {
+      "id": "loop",
+      "start": 40.7,
+      "end": 42.0,
+      "visual": "The panel and the gravity chip fade; the title fades back in over the still-orbiting station and its DOWN arrow -> last frame == frame 0. NO CTA."
+    }
+  ],
+  "physics": {
+    "note": "ONE SOURCE OF TRUTH. lib/orbit.tsx holds GM, R_EARTH and ISS_ALT, and EVERY number below is derived from them by the composition at render time — the chips, the ladder, the downrange labels and the equality panel all read from the same functions that draw the arcs. Nothing here is asserted; the arcs land (or don't) because velocity-Verlet integration under Newtonian gravity says so. Same ethos as prob.tsx's seeded Monty Carlo sim and map.tsx's real Mercator.",
+    "constants": {
+      "GM_m3_s2": 398600441800000.0,
+      "R_earth_m": 6371000,
+      "ISS_alt_m": 400000
+    },
+    "derived": {
+      "g_surface_m_s2": 9.8203,
+      "g_at_400km_m_s2": 8.6943,
+      "pct_of_surface_gravity": 88.5,
+      "v_circular_m_s": 7672.6,
+      "period_min": 92.4,
+      "fall_in_1s_m": 4.347,
+      "curve_away_in_1s_m": 4.347,
+      "sideways_in_1s_km": 7.67,
+      "crossCheck": "our simulated period, 92.4 min, against the real ISS's ~92.7 min — the 0.3% gap is the ISS's slightly elliptical, 51.6-degree-inclined orbit and a non-spherical Earth. The sim is honest."
+    },
+    "THE_CORRECTION": {
+      "claim_as_briefed": "'in 1 s the ISS falls 4.35 m; it travels 7.7 km sideways; over that distance the EARTH'S SURFACE curves away by 4.35 m'",
+      "why_it_is_wrong": "the GROUND (r = 6371 km) is more sharply curved than the shell the station is on. Its sagitta over a 7.67 km chord is 4.62 m, not 4.35 m. Quoting 4.35 m as a fact about the ground is a 6% error, and the whole video rests on this number being EXACT.",
+      "what_is_exactly_true": "the shell the station orbits on (r = R + h = 6771 km) drops 4.347 m over that same 7.67 km — identical, to every digit we show, to the 4.347 m it falls. And the shell IS what 'the Earth curving away beneath it' means for something at altitude: it is the surface of constant height above the ground, so keeping pace with it is exactly what keeps the station's altitude constant. That equality is not a coincidence to be measured — it IS the definition of a circular orbit, which is why it comes out exact.",
+      "resolution": "sagitta() in lib/orbit.tsx takes the radius as an argument, and the composition passes r = R + h. The VO says 'the Earth curves away by exactly the same amount' and never names a second, different number, so the claim on the track equals the number on the screen."
+    },
+    "orbit_plane": {
+      "note": "the orbit is drawn in the plane of the screen around a globe facing us near (12E, 18N) — geometrically that is a polar orbit. The real ISS is inclined 51.6 degrees, which is the same circle rotated: it changes nothing about the speed, the period, the fall per second or the curvature. We never claim an inclination."
+    },
+    "shots": [
+      {
+        "v_km_s": 3.0,
+        "result": "IMPACT",
+        "downrange_deg": 8.67,
+        "downrange_km": 960,
+        "flight_s": 328
+      },
+      {
+        "v_km_s": 5.0,
+        "result": "IMPACT",
+        "downrange_deg": 17.54,
+        "downrange_km": 1950,
+        "flight_s": 398
+      },
+      {
+        "v_km_s": 7.0,
+        "result": "IMPACT",
+        "downrange_deg": 46.55,
+        "downrange_km": 5180,
+        "flight_s": 754
+      },
+      {
+        "v_km_s": 7.673,
+        "result": "ORBIT",
+        "downrange_deg": 360,
+        "downrange_km": null,
+        "flight_s": 5545,
+        "integratorCheck": "at dt=2 s the radius stays within 6771.000-6771.017 km across a full revolution — 17 m of drift over 40,000 km. The ring closes because the physics closes it, not because we drew a circle."
+      }
+    ],
+    "shotsNote": "the downrange figures above are what the COMPOSITION prints on the ladder, because the composition integrates these arcs itself and measures them — they are not copied here from a scratch calculation. (An early draft of this file said 970 km for the 3 km/s shot, from a rounded 8.7 deg; the code, integrating properly, says 8.67 deg = 960 km. The code won.)",
+    "integrator": {
+      "method": "velocity Verlet (symplectic — a circular orbit stays circular instead of spiralling in, which is what naive Euler would do over ~1,400 steps)",
+      "dt_landing_shots_s": 2,
+      "dt_orbit_s": 4,
+      "note": "the orbit is integrated 0.4% past one period so the ring visibly closes onto its own tail"
+    }
+  },
+  "cues": [
+    {
+      "at_s": 5.2,
+      "event": "THE REWIND — the orbit un-draws, camera pushes in, the cannon appears",
+      "word": "'Newton' @ 5.20"
+    },
+    {
+      "at_s": 8.1,
+      "event": "the 3 km/s shot fires",
+      "word": "'Fire it slow' @ 8.10"
+    },
+    {
+      "at_s": 10.2,
+      "event": "...and LANDS, 970 km downrange",
+      "word": "'lands' @ ~10.10"
+    },
+    {
+      "at_s": 10.9,
+      "event": "the 5 km/s shot fires",
+      "word": "'Fire it faster' @ 10.90"
+    },
+    {
+      "at_s": 13.2,
+      "event": "...LANDS, 1,950 km downrange",
+      "word": "'further away' @ ~12.70"
+    },
+    {
+      "at_s": 13.7,
+      "event": "PauseCard",
+      "word": "'Pause.' @ 13.70"
+    },
+    {
+      "at_s": 17.6,
+      "event": "ladder rung 1 lights (3 km/s)",
+      "word": "'Three' @ 17.60"
+    },
+    {
+      "at_s": 19.9,
+      "event": "ladder rung 2 lights (5 km/s)",
+      "word": "'Five.' @ ~19.90"
+    },
+    {
+      "at_s": 20.6,
+      "event": "the 7 km/s shot fires AND the camera starts pulling back to keep it in frame",
+      "word": "'Seven.' @ ~20.70"
+    },
+    {
+      "at_s": 22.6,
+      "event": "it lands anyway — 5,180 km downrange",
+      "word": "(between lines)"
+    },
+    {
+      "at_s": 22.9,
+      "event": "the 7.67 km/s arc starts drawing",
+      "word": "'At seven point seven' @ 22.20"
+    },
+    {
+      "at_s": 25.6,
+      "event": "the arc CLOSES — it never lands",
+      "word": "'it never lands.' @ ~24.60"
+    },
+    {
+      "at_s": 26.0,
+      "event": "the station appears, riding the orbit",
+      "word": "'It just falls around the planet' @ 25.80"
+    },
+    {
+      "at_s": 28.4,
+      "event": "ORBIT stamp",
+      "word": "'That's orbit.' @ ~28.40"
+    },
+    {
+      "at_s": 29.8,
+      "event": "cannon + arcs + ladder clear; the gravity chip lands",
+      "word": "'Up there, gravity' @ 29.80"
+    },
+    {
+      "at_s": 34.0,
+      "event": "the FALLS 4.35 m card",
+      "word": "'Every second' @ 34.00"
+    },
+    {
+      "at_s": 38.0,
+      "event": "the EARTH CURVES AWAY 4.35 m card",
+      "word": "'curves away' @ ~38.00"
+    },
+    {
+      "at_s": 39.4,
+      "event": "the '=' punches in — the payoff",
+      "word": "'exactly the same amount' @ ~39.40"
+    },
+    {
+      "at_s": 40.8,
+      "event": "loop restore begins — after the payoff line has landed",
+      "word": "(after 'amount.' @ 40.60)"
+    }
+  ]
+}

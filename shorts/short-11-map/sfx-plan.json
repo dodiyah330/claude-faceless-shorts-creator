@@ -1,0 +1,29 @@
+{
+  "master": "remotion/out/Short11Map-voiced.mp4",
+  "master_fps": 30,
+  "catalog": "media/library/sfx/catalog.json",
+  "render": {
+    "preview": "remotion/out/Short11Map-voiced.mp4",
+    "out": "shorts/short-11-map/output/short-11-sfx.mp4",
+    "end_s": 42,
+    "duck": true
+  },
+  "note": "100% library, nothing generated. Two build-and-drops carry it (brand §10 — layer only the 2-3 hero moments, everything else single and sparse): riser -> impact as Greenland travels down and LANDS at true size, and the stamp-hit on the 14x verdict. The twist is a pair of whooshes as Canada and Russia are named. Every at_s is retimed to the REAL word times in vo.gen.ts — the countries leave on the words that name them, and the impact lands on 'its real size', not on the estimate.",
+  "events": [
+    { "at_s": 4.45, "sfx_id": "whoosh-reverse", "gain_db": -8, "shot": "setup", "cue": "THE REWIND — true-size Greenland flies back north and re-inflates, on 'On this map' (4.40)" },
+
+    { "at_s": 13.20, "sfx_id": "pop-reveal", "gain_db": -10, "shot": "quiz", "cue": "PauseCard enters exactly on the word 'Pause.' (13.20)" },
+    { "at_s": 13.45, "sfx_id": "clock-tick-soft", "gain_db": -15, "optional": true, "shot": "quiz", "cue": "the countdown ring runs (~4.3s)" },
+
+    { "at_s": 18.75, "sfx_id": "riser-soft", "gain_db": -10, "shot": "reveal", "cue": "HERO 1 (build) — Greenland tears off the map on the word 'slide' (18.79) and starts falling south, shrinking the whole way" },
+    { "at_s": 25.10, "sfx_id": "impact-deep-soft", "gain_db": -5, "shot": "reveal", "cue": "HERO 1 (drop) — THE payoff: it lands on Africa at its true size, under 'its real size.' (25.00). The loudest thing in the video after the voice." },
+
+    { "at_s": 31.25, "sfx_id": "stamp-hit", "gain_db": -6, "shot": "reveal", "cue": "HERO 2 — the 14× BIGGER stamp punches in ON the word 'fourteen' (31.27)" },
+
+    { "at_s": 34.75, "sfx_id": "whoosh-soft", "gain_db": -9, "shot": "twist", "cue": "Canada tears off the north on the word 'Canada' (34.76)" },
+    { "at_s": 35.40, "sfx_id": "whoosh-soft", "gain_db": -9, "shot": "twist", "cue": "Russia follows on the word 'Russia' (35.41)" },
+    { "at_s": 37.55, "sfx_id": "impact-soft", "gain_db": -7, "optional": true, "shot": "twist", "cue": "both land, deflated, either side of Africa" },
+
+    { "at_s": 39.65, "sfx_id": "whoosh-reverse", "gain_db": -9, "optional": true, "shot": "loop", "cue": "the north refills as the loop restores frame 0 — rhymes with the rewind at 4.45" }
+  ]
+}

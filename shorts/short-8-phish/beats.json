@@ -1,0 +1,625 @@
+{
+  "id": "short-8-phish",
+  "title": "The URL That Isn't PayPal",
+  "composition": "Short8Phish",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 43
+  },
+  "voiceStatus": "elevenlabs:TX3LPaxmHKxFdv7VOQHJ",
+  "voicePlan": "elevenlabs:TX3LPaxmHKxFdv7VOQHJ",
+  "vo": [
+    {
+      "beat": "hook",
+      "text": "This is not PayPal. And you'd never notice.",
+      "start": 0.4,
+      "end": 3.0,
+      "words": [
+        {
+          "w": "This",
+          "start": 0.4,
+          "end": 0.667
+        },
+        {
+          "w": "is",
+          "start": 0.737,
+          "end": 0.841
+        },
+        {
+          "w": "not",
+          "start": 0.922,
+          "end": 1.12
+        },
+        {
+          "w": "PayPal.",
+          "start": 1.178,
+          "end": 1.77
+        },
+        {
+          "w": "And",
+          "start": 2.049,
+          "end": 2.176
+        },
+        {
+          "w": "you'd",
+          "start": 2.223,
+          "end": 2.374
+        },
+        {
+          "w": "never",
+          "start": 2.409,
+          "end": 2.583
+        },
+        {
+          "w": "notice.",
+          "start": 2.641,
+          "end": 3.001
+        }
+      ]
+    },
+    {
+      "beat": "setup",
+      "text": "The logo's right. The padlock's there. The address bar says paypal dot com.",
+      "start": 4.0,
+      "end": 8.82,
+      "words": [
+        {
+          "w": "The",
+          "start": 4.0,
+          "end": 4.139
+        },
+        {
+          "w": "logo's",
+          "start": 4.197,
+          "end": 4.511
+        },
+        {
+          "w": "right.",
+          "start": 4.557,
+          "end": 4.859
+        },
+        {
+          "w": "The",
+          "start": 5.033,
+          "end": 5.138
+        },
+        {
+          "w": "padlock's",
+          "start": 5.184,
+          "end": 5.637
+        },
+        {
+          "w": "there.",
+          "start": 5.672,
+          "end": 6.009
+        },
+        {
+          "w": "The",
+          "start": 6.334,
+          "end": 6.461
+        },
+        {
+          "w": "address",
+          "start": 6.531,
+          "end": 6.879
+        },
+        {
+          "w": "bar",
+          "start": 6.914,
+          "end": 7.1
+        },
+        {
+          "w": "says",
+          "start": 7.158,
+          "end": 7.344
+        },
+        {
+          "w": "paypal",
+          "start": 7.413,
+          "end": 7.785
+        },
+        {
+          "w": "dot",
+          "start": 7.855,
+          "end": 8.04
+        },
+        {
+          "w": "com.",
+          "start": 8.087,
+          "end": 8.83
+        }
+      ]
+    },
+    {
+      "beat": "setup",
+      "text": "So you'd type your password right here.",
+      "start": 9.3,
+      "end": 11.29,
+      "words": [
+        {
+          "w": "So",
+          "start": 9.3,
+          "end": 9.439
+        },
+        {
+          "w": "you'd",
+          "start": 9.486,
+          "end": 9.637
+        },
+        {
+          "w": "type",
+          "start": 9.66,
+          "end": 9.857
+        },
+        {
+          "w": "your",
+          "start": 9.88,
+          "end": 9.973
+        },
+        {
+          "w": "password",
+          "start": 10.008,
+          "end": 10.391
+        },
+        {
+          "w": "right",
+          "start": 10.438,
+          "end": 10.6
+        },
+        {
+          "w": "here.",
+          "start": 10.647,
+          "end": 11.297
+        }
+      ]
+    },
+    {
+      "beat": "quiz",
+      "text": "Pause. Which part is the real website?",
+      "start": 12.4,
+      "end": 15.51,
+      "words": [
+        {
+          "w": "Pause.",
+          "start": 12.4,
+          "end": 12.934
+        },
+        {
+          "w": "Which",
+          "start": 13.375,
+          "end": 13.596
+        },
+        {
+          "w": "part",
+          "start": 13.654,
+          "end": 13.828
+        },
+        {
+          "w": "is",
+          "start": 13.863,
+          "end": 13.933
+        },
+        {
+          "w": "the",
+          "start": 13.979,
+          "end": 14.049
+        },
+        {
+          "w": "real",
+          "start": 14.13,
+          "end": 14.327
+        },
+        {
+          "w": "website?",
+          "start": 14.374,
+          "end": 15.511
+        }
+      ]
+    },
+    {
+      "beat": "reveal",
+      "text": "Ignore everything after the first slash.",
+      "start": 16.6,
+      "end": 18.87,
+      "words": [
+        {
+          "w": "Ignore",
+          "start": 16.6,
+          "end": 17.006
+        },
+        {
+          "w": "everything",
+          "start": 17.041,
+          "end": 17.413
+        },
+        {
+          "w": "after",
+          "start": 17.482,
+          "end": 17.691
+        },
+        {
+          "w": "the",
+          "start": 17.726,
+          "end": 17.796
+        },
+        {
+          "w": "first",
+          "start": 17.842,
+          "end": 18.063
+        },
+        {
+          "w": "slash.",
+          "start": 18.086,
+          "end": 18.876
+        }
+      ]
+    },
+    {
+      "beat": "reveal",
+      "text": "Then read what's left right to left.",
+      "start": 19.6,
+      "end": 22.25,
+      "words": [
+        {
+          "w": "Then",
+          "start": 19.6,
+          "end": 19.809
+        },
+        {
+          "w": "read",
+          "start": 19.879,
+          "end": 20.041
+        },
+        {
+          "w": "what's",
+          "start": 20.076,
+          "end": 20.25
+        },
+        {
+          "w": "left",
+          "start": 20.297,
+          "end": 20.482
+        },
+        {
+          "w": "right",
+          "start": 20.552,
+          "end": 20.773
+        },
+        {
+          "w": "to",
+          "start": 20.807,
+          "end": 20.877
+        },
+        {
+          "w": "left.",
+          "start": 20.947,
+          "end": 22.247
+        }
+      ]
+    },
+    {
+      "beat": "reveal",
+      "text": "The real site is the last two parts before it.",
+      "start": 23.0,
+      "end": 25.64,
+      "words": [
+        {
+          "w": "The",
+          "start": 23.0,
+          "end": 23.163
+        },
+        {
+          "w": "real",
+          "start": 23.232,
+          "end": 23.406
+        },
+        {
+          "w": "site",
+          "start": 23.453,
+          "end": 23.662
+        },
+        {
+          "w": "is",
+          "start": 23.685,
+          "end": 23.755
+        },
+        {
+          "w": "the",
+          "start": 23.789,
+          "end": 23.859
+        },
+        {
+          "w": "last",
+          "start": 23.917,
+          "end": 24.161
+        },
+        {
+          "w": "two",
+          "start": 24.196,
+          "end": 24.358
+        },
+        {
+          "w": "parts",
+          "start": 24.428,
+          "end": 24.683
+        },
+        {
+          "w": "before",
+          "start": 24.73,
+          "end": 25.043
+        },
+        {
+          "w": "it.",
+          "start": 25.09,
+          "end": 25.647
+        }
+      ]
+    },
+    {
+      "beat": "reveal",
+      "text": "Which makes this secure-login dot net.",
+      "start": 27.4,
+      "end": 30.36,
+      "words": [
+        {
+          "w": "Which",
+          "start": 27.4,
+          "end": 27.596
+        },
+        {
+          "w": "makes",
+          "start": 27.653,
+          "end": 27.861
+        },
+        {
+          "w": "this",
+          "start": 27.907,
+          "end": 28.045
+        },
+        {
+          "w": "secure-login",
+          "start": 28.103,
+          "end": 28.91
+        },
+        {
+          "w": "dot",
+          "start": 28.99,
+          "end": 29.244
+        },
+        {
+          "w": "net.",
+          "start": 29.313,
+          "end": 30.35
+        }
+      ]
+    },
+    {
+      "beat": "reveal",
+      "text": "Anyone can put your bank's name in a subdomain. It's free.",
+      "start": 30.4,
+      "end": 33.64,
+      "words": [
+        {
+          "w": "Anyone",
+          "start": 30.4,
+          "end": 30.818
+        },
+        {
+          "w": "can",
+          "start": 30.841,
+          "end": 30.934
+        },
+        {
+          "w": "put",
+          "start": 30.969,
+          "end": 31.085
+        },
+        {
+          "w": "your",
+          "start": 31.12,
+          "end": 31.224
+        },
+        {
+          "w": "bank's",
+          "start": 31.282,
+          "end": 31.526
+        },
+        {
+          "w": "name",
+          "start": 31.561,
+          "end": 31.712
+        },
+        {
+          "w": "in",
+          "start": 31.735,
+          "end": 31.782
+        },
+        {
+          "w": "a",
+          "start": 31.816,
+          "end": 31.84
+        },
+        {
+          "w": "subdomain.",
+          "start": 31.886,
+          "end": 32.559
+        },
+        {
+          "w": "It's",
+          "start": 32.734,
+          "end": 32.919
+        },
+        {
+          "w": "free.",
+          "start": 32.966,
+          "end": 33.651
+        }
+      ]
+    },
+    {
+      "beat": "twist",
+      "text": "And the padlock? It just means encrypted. Encrypted straight to the thief.",
+      "start": 35.2,
+      "end": 39.79,
+      "words": [
+        {
+          "w": "And",
+          "start": 35.2,
+          "end": 35.386
+        },
+        {
+          "w": "the",
+          "start": 35.432,
+          "end": 35.502
+        },
+        {
+          "w": "padlock?",
+          "start": 35.525,
+          "end": 36.152
+        },
+        {
+          "w": "It",
+          "start": 36.593,
+          "end": 36.698
+        },
+        {
+          "w": "just",
+          "start": 36.744,
+          "end": 36.872
+        },
+        {
+          "w": "means",
+          "start": 36.907,
+          "end": 37.092
+        },
+        {
+          "w": "encrypted.",
+          "start": 37.127,
+          "end": 37.766
+        },
+        {
+          "w": "Encrypted",
+          "start": 38.091,
+          "end": 38.59
+        },
+        {
+          "w": "straight",
+          "start": 38.637,
+          "end": 38.927
+        },
+        {
+          "w": "to",
+          "start": 38.95,
+          "end": 39.008
+        },
+        {
+          "w": "the",
+          "start": 39.055,
+          "end": 39.124
+        },
+        {
+          "w": "thief.",
+          "start": 39.159,
+          "end": 39.798
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "id": "hook",
+      "start": 0.0,
+      "end": 3.6,
+      "visual": "frame-0 composed: browser + fake PayPal login page + padlock + full URL; title 'THIS IS NOT PAYPAL'; punch-in settles 1.06 -> 1"
+    },
+    {
+      "id": "setup",
+      "start": 3.6,
+      "end": 12.2,
+      "visual": "padlock pulses with a green tick; 'paypal.com' underlines green in the URL; password field fills with dots; pointer lands on the Log In button"
+    },
+    {
+      "id": "quiz",
+      "start": 12.2,
+      "end": 16.3,
+      "visual": "PauseCard 'which part is the real website?'; the page freezes, URL held still"
+    },
+    {
+      "id": "reveal",
+      "start": 16.3,
+      "end": 34.9,
+      "visual": "camera lifts into the URL bar (page dims behind): /login strikes + drops -> red arrow sweeps right-to-left -> secure-login + .net box red as THE REAL SITE -> paypal.com. greys out, labelled SUBDOMAIN"
+    },
+    {
+      "id": "twist",
+      "start": 34.9,
+      "end": 40.0,
+      "visual": "the padlock (still zoomed, still in frame) gets a red ring and a strike; label 'ENCRYPTED, NOT TRUSTED'"
+    },
+    {
+      "id": "loop",
+      "start": 40.0,
+      "end": 43.0,
+      "visual": "annotations dissolve, camera pulls back out, URL returns to its innocent state, title fades back in -> last frame == frame 0. NO comment-bait CTA"
+    }
+  ],
+  "phish": {
+    "urlSegments": [
+      {
+        "id": "sub",
+        "text": "paypal.com.",
+        "role": "subdomain"
+      },
+      {
+        "id": "sld",
+        "text": "secure-login",
+        "role": "registrable"
+      },
+      {
+        "id": "tld",
+        "text": ".net",
+        "role": "registrable"
+      },
+      {
+        "id": "path",
+        "text": "/login",
+        "role": "path"
+      }
+    ],
+    "realSite": "secure-login.net",
+    "tabTitle": "Log in to your account",
+    "page": {
+      "brand": "PayPal",
+      "heading": "Log in to your account",
+      "email": "hasan@learnwithhasan.com",
+      "passwordDots": 11,
+      "cta": "Log In"
+    },
+    "cues": {
+      "padlockPulseSec": 4.6,
+      "urlUnderlineSec": 6.6,
+      "passwordTypeStartSec": 9.4,
+      "passwordTypeEndSec": 11.4,
+      "pointerLandSec": 11.6,
+      "pauseCardStartSec": 12.3,
+      "pauseCardEndSec": 16.2,
+      "liftStartSec": 15.8,
+      "liftEndSec": 17.0,
+      "pathStrikeSec": 17.0,
+      "pathDropSec": 18.4,
+      "arrowSweepSec": 19.9,
+      "tldBoxSec": 23.4,
+      "sldBoxSec": 24.4,
+      "realSiteLabelSec": 25.6,
+      "realSiteStampSec": 27.8,
+      "subGreySec": 30.6,
+      "subLabelSec": 31.4,
+      "padlockRingSec": 35.6,
+      "padlockStrikeSec": 37.6,
+      "padlockLabelSec": 36.6,
+      "loopStartSec": 40.0
+    }
+  }
+}

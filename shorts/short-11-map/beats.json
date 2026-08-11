@@ -1,0 +1,685 @@
+{
+  "id": "short-11-map",
+  "title": "The Map Lied To You",
+  "composition": "Short11Map",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 42
+  },
+  "voiceStatus": "elevenlabs:TX3LPaxmHKxFdv7VOQHJ",
+  "voicePlan": "elevenlabs:TX3LPaxmHKxFdv7VOQHJ",
+  "vo": [
+    {
+      "beat": "hook",
+      "text": "The map on your wall is lying to you.",
+      "start": 0.4,
+      "end": 2.9,
+      "words": [
+        {
+          "w": "The",
+          "start": 0.4,
+          "end": 0.551
+        },
+        {
+          "w": "map",
+          "start": 0.597,
+          "end": 0.772
+        },
+        {
+          "w": "on",
+          "start": 0.83,
+          "end": 0.899
+        },
+        {
+          "w": "your",
+          "start": 0.934,
+          "end": 1.039
+        },
+        {
+          "w": "wall",
+          "start": 1.085,
+          "end": 1.248
+        },
+        {
+          "w": "is",
+          "start": 1.294,
+          "end": 1.364
+        },
+        {
+          "w": "lying",
+          "start": 1.433,
+          "end": 1.7
+        },
+        {
+          "w": "to",
+          "start": 1.758,
+          "end": 1.828
+        },
+        {
+          "w": "you.",
+          "start": 1.909,
+          "end": 2.908
+        }
+      ]
+    },
+    {
+      "beat": "setup",
+      "text": "On this map, Greenland looks bigger than Africa.",
+      "start": 4.4,
+      "end": 8.07,
+      "words": [
+        {
+          "w": "On",
+          "start": 4.4,
+          "end": 4.597
+        },
+        {
+          "w": "this",
+          "start": 4.644,
+          "end": 4.783
+        },
+        {
+          "w": "map,",
+          "start": 4.864,
+          "end": 5.271
+        },
+        {
+          "w": "Greenland",
+          "start": 5.549,
+          "end": 5.944
+        },
+        {
+          "w": "looks",
+          "start": 5.991,
+          "end": 6.176
+        },
+        {
+          "w": "bigger",
+          "start": 6.223,
+          "end": 6.443
+        },
+        {
+          "w": "than",
+          "start": 6.478,
+          "end": 6.594
+        },
+        {
+          "w": "Africa.",
+          "start": 6.652,
+          "end": 8.069
+        }
+      ]
+    },
+    {
+      "beat": "setup",
+      "text": "Mercator stretches the world more and more the further you get from the equator.",
+      "start": 8.5,
+      "end": 13.04,
+      "words": [
+        {
+          "w": "Mercator",
+          "start": 8.5,
+          "end": 8.988
+        },
+        {
+          "w": "stretches",
+          "start": 9.057,
+          "end": 9.417
+        },
+        {
+          "w": "the",
+          "start": 9.464,
+          "end": 9.533
+        },
+        {
+          "w": "world",
+          "start": 9.568,
+          "end": 9.8
+        },
+        {
+          "w": "more",
+          "start": 9.882,
+          "end": 10.183
+        },
+        {
+          "w": "and",
+          "start": 10.218,
+          "end": 10.288
+        },
+        {
+          "w": "more",
+          "start": 10.346,
+          "end": 10.555
+        },
+        {
+          "w": "the",
+          "start": 10.601,
+          "end": 10.671
+        },
+        {
+          "w": "further",
+          "start": 10.729,
+          "end": 11.008
+        },
+        {
+          "w": "you",
+          "start": 11.054,
+          "end": 11.124
+        },
+        {
+          "w": "get",
+          "start": 11.182,
+          "end": 11.31
+        },
+        {
+          "w": "from",
+          "start": 11.344,
+          "end": 11.461
+        },
+        {
+          "w": "the",
+          "start": 11.507,
+          "end": 11.577
+        },
+        {
+          "w": "equator.",
+          "start": 11.635,
+          "end": 13.051
+        }
+      ]
+    },
+    {
+      "beat": "quiz",
+      "text": "Pause. How many Greenlands actually fit inside Africa?",
+      "start": 13.2,
+      "end": 17.16,
+      "words": [
+        {
+          "w": "Pause.",
+          "start": 13.2,
+          "end": 13.774
+        },
+        {
+          "w": "How",
+          "start": 14.563,
+          "end": 14.709
+        },
+        {
+          "w": "many",
+          "start": 14.743,
+          "end": 14.889
+        },
+        {
+          "w": "Greenlands",
+          "start": 14.946,
+          "end": 15.374
+        },
+        {
+          "w": "actually",
+          "start": 15.452,
+          "end": 15.858
+        },
+        {
+          "w": "fit",
+          "start": 15.926,
+          "end": 16.105
+        },
+        {
+          "w": "inside",
+          "start": 16.162,
+          "end": 16.511
+        },
+        {
+          "w": "Africa?",
+          "start": 16.556,
+          "end": 17.75
+        }
+      ]
+    },
+    {
+      "beat": "reveal",
+      "text": "Watch what happens when we slide Greenland back down to the equator.",
+      "start": 17.8,
+      "end": 20.95,
+      "words": [
+        {
+          "w": "Watch",
+          "start": 17.8,
+          "end": 18.055
+        },
+        {
+          "w": "what",
+          "start": 18.079,
+          "end": 18.172
+        },
+        {
+          "w": "happens",
+          "start": 18.206,
+          "end": 18.497
+        },
+        {
+          "w": "when",
+          "start": 18.531,
+          "end": 18.636
+        },
+        {
+          "w": "we",
+          "start": 18.671,
+          "end": 18.74
+        },
+        {
+          "w": "slide",
+          "start": 18.787,
+          "end": 19.065
+        },
+        {
+          "w": "Greenland",
+          "start": 19.089,
+          "end": 19.46
+        },
+        {
+          "w": "back",
+          "start": 19.518,
+          "end": 19.669
+        },
+        {
+          "w": "down",
+          "start": 19.727,
+          "end": 19.867
+        },
+        {
+          "w": "to",
+          "start": 19.89,
+          "end": 19.936
+        },
+        {
+          "w": "the",
+          "start": 19.971,
+          "end": 20.041
+        },
+        {
+          "w": "equator.",
+          "start": 20.087,
+          "end": 20.958
+        }
+      ]
+    },
+    {
+      "beat": "reveal",
+      "text": "It shrinks. And shrinks. Down to its real size.",
+      "start": 22.0,
+      "end": 25.94,
+      "words": [
+        {
+          "w": "It",
+          "start": 22.0,
+          "end": 22.163
+        },
+        {
+          "w": "shrinks.",
+          "start": 22.221,
+          "end": 22.789
+        },
+        {
+          "w": "And",
+          "start": 22.998,
+          "end": 23.231
+        },
+        {
+          "w": "shrinks.",
+          "start": 23.3,
+          "end": 23.858
+        },
+        {
+          "w": "Down",
+          "start": 24.183,
+          "end": 24.403
+        },
+        {
+          "w": "to",
+          "start": 24.438,
+          "end": 24.496
+        },
+        {
+          "w": "its",
+          "start": 24.566,
+          "end": 24.67
+        },
+        {
+          "w": "real",
+          "start": 24.74,
+          "end": 24.937
+        },
+        {
+          "w": "size.",
+          "start": 24.995,
+          "end": 25.947
+        }
+      ]
+    },
+    {
+      "beat": "reveal",
+      "text": "Two million square kilometres, against Africa's thirty million.",
+      "start": 26.0,
+      "end": 30.27,
+      "words": [
+        {
+          "w": "Two",
+          "start": 26.0,
+          "end": 26.244
+        },
+        {
+          "w": "million",
+          "start": 26.313,
+          "end": 26.604
+        },
+        {
+          "w": "square",
+          "start": 26.662,
+          "end": 26.94
+        },
+        {
+          "w": "kilometres,",
+          "start": 26.987,
+          "end": 27.683
+        },
+        {
+          "w": "against",
+          "start": 27.858,
+          "end": 28.183
+        },
+        {
+          "w": "Africa's",
+          "start": 28.276,
+          "end": 28.728
+        },
+        {
+          "w": "thirty",
+          "start": 28.786,
+          "end": 29.042
+        },
+        {
+          "w": "million.",
+          "start": 29.1,
+          "end": 30.272
+        }
+      ]
+    },
+    {
+      "beat": "reveal",
+      "text": "Africa is fourteen times bigger.",
+      "start": 30.6,
+      "end": 33.05,
+      "words": [
+        {
+          "w": "Africa",
+          "start": 30.6,
+          "end": 31.053
+        },
+        {
+          "w": "is",
+          "start": 31.111,
+          "end": 31.204
+        },
+        {
+          "w": "fourteen",
+          "start": 31.273,
+          "end": 31.691
+        },
+        {
+          "w": "times",
+          "start": 31.726,
+          "end": 31.993
+        },
+        {
+          "w": "bigger.",
+          "start": 32.063,
+          "end": 33.061
+        }
+      ]
+    },
+    {
+      "beat": "twist",
+      "text": "It's not just Greenland. Canada and Russia are blown up too.",
+      "start": 33.2,
+      "end": 37.19,
+      "words": [
+        {
+          "w": "It's",
+          "start": 33.2,
+          "end": 33.386
+        },
+        {
+          "w": "not",
+          "start": 33.432,
+          "end": 33.56
+        },
+        {
+          "w": "just",
+          "start": 33.606,
+          "end": 33.746
+        },
+        {
+          "w": "Greenland.",
+          "start": 33.792,
+          "end": 34.373
+        },
+        {
+          "w": "Canada",
+          "start": 34.756,
+          "end": 35.174
+        },
+        {
+          "w": "and",
+          "start": 35.232,
+          "end": 35.325
+        },
+        {
+          "w": "Russia",
+          "start": 35.406,
+          "end": 35.719
+        },
+        {
+          "w": "are",
+          "start": 35.789,
+          "end": 35.928
+        },
+        {
+          "w": "blown",
+          "start": 35.963,
+          "end": 36.207
+        },
+        {
+          "w": "up",
+          "start": 36.242,
+          "end": 36.335
+        },
+        {
+          "w": "too.",
+          "start": 36.381,
+          "end": 37.194
+        }
+      ]
+    },
+    {
+      "beat": "payoff",
+      "text": "The further from the equator, the bigger the lie.",
+      "start": 37.6,
+      "end": 40.15,
+      "words": [
+        {
+          "w": "The",
+          "start": 37.6,
+          "end": 37.728
+        },
+        {
+          "w": "further",
+          "start": 37.786,
+          "end": 38.076
+        },
+        {
+          "w": "from",
+          "start": 38.122,
+          "end": 38.239
+        },
+        {
+          "w": "the",
+          "start": 38.285,
+          "end": 38.355
+        },
+        {
+          "w": "equator,",
+          "start": 38.424,
+          "end": 38.924
+        },
+        {
+          "w": "the",
+          "start": 38.993,
+          "end": 39.098
+        },
+        {
+          "w": "bigger",
+          "start": 39.144,
+          "end": 39.365
+        },
+        {
+          "w": "the",
+          "start": 39.423,
+          "end": 39.492
+        },
+        {
+          "w": "lie.",
+          "start": 39.55,
+          "end": 40.154
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "id": "hook",
+      "start": 0.0,
+      "end": 4.2,
+      "visual": "frame-0 composed: ghost outline of map-sized Greenland still up north, true-size Greenland ALREADY shrunken onto Africa, 14x stamp, title. Punch-in settles 1.05 -> 1"
+    },
+    {
+      "id": "setup",
+      "start": 4.2,
+      "end": 13.2,
+      "visual": "THE REWIND: true-size Greenland flies back north and re-inflates into the ghost; the familiar map heals. Greenland + Africa highlighted, chips show their ON-SCREEN areas (Greenland reads BIGGER). Graticule parallels visibly spread out toward the pole."
+    },
+    {
+      "id": "quiz",
+      "start": 13.2,
+      "end": 17.2,
+      "visual": "PauseCard 'how many Greenlands fit inside Africa?'"
+    },
+    {
+      "id": "reveal",
+      "start": 17.2,
+      "end": 33.6,
+      "visual": "Greenland detaches and slides to the equator, SHRINKING as it goes (real re-projection of real coords, not a keyframed scale). Live counter tracks its map size x15 -> x1. Lands on Africa, dwarfed. Areas resolve 2.2M vs 30.4M km2; the 14x stamp lands."
+    },
+    {
+      "id": "twist",
+      "start": 33.6,
+      "end": 39.0,
+      "visual": "Canada and Russia tear off the north and slide to the equator too, deflating to 4.7x / 4.4x smaller. The whole top of the map collapses."
+    },
+    {
+      "id": "loop",
+      "start": 39.0,
+      "end": 42.0,
+      "visual": "Canada + Russia fly back north and re-inflate; Greenland STAYS shrunken on Africa; title fades back -> last frame == frame 0. NO CTA."
+    }
+  ],
+  "geo": {
+    "note": "ONE SOURCE OF TRUTH. lib/map.tsx implements the real Mercator formula and projects the real Natural Earth 110m outlines in src/lib/geo/world.ts. The distortion on screen is COMPUTED by our own code, and the on-screen inflation counter is measured (shoelace) off the projected polygon — the map lies on camera the way it lies on a wall. Nothing here is a hand-tuned scale animation.",
+    "projection": "Mercator, y = ln(tan(PI/4 + phi/2)), clamped at +/-85.05 deg",
+    "source": "Natural Earth 110m admin-0 (public domain)",
+    "truth": {
+      "greenland_km2": 2166086,
+      "africa_km2": 30370000,
+      "ratio": 14.0,
+      "crossCheck": "our rendered polygons independently give 2,190,043 / 29,887,668 = 13.6x (110m generalization); both round to 'about fourteen', which is what the VO claims"
+    },
+    "lie": {
+      "africa_over_greenland_as_drawn": 0.92,
+      "note": "measured by shoelace over the PROJECTED polygons: Africa's on-screen area is only 0.92x Greenland's, so Greenland genuinely looks BIGGER than Africa on Mercator"
+    },
+    "inflation": {
+      "Greenland": 16.2,
+      "note": "MEASURED BY THE COMPOSITION at render time (projected area at Greenland's real latitude / projected area of the same polygon transported to the equator) — this is the number the on-screen counter runs down from. An earlier scratch calculation said 14.8 because it normalised against AFRICA's own inflation (Africa spans 35N-35S, so it is not itself an unbiased 1.0 baseline); 16.2 is the equator-referenced truth and is what the code and the screen agree on.",
+      "Canada_theoretical": 4.0,
+      "Russia_theoretical": 4.5,
+      "theoreticalNote": "local area inflation is 1/cos^2(lat); Canada and Russia are not measured on screen, only shown deflating"
+    },
+    "moves": [
+      {
+        "country": "Greenland",
+        "toLon": 20,
+        "toLat": 3,
+        "beat": "reveal",
+        "cue": "slides onto Africa"
+      },
+      {
+        "country": "Canada",
+        "toLon": -32,
+        "toLat": 2,
+        "beat": "twist",
+        "cue": "into the Atlantic, west of Africa"
+      },
+      {
+        "country": "Russia",
+        "toLon": 78,
+        "toLat": -2,
+        "beat": "twist",
+        "cue": "into the Indian Ocean, east of Africa"
+      }
+    ],
+    "cues": [
+      {
+        "at_s": 4.4,
+        "event": "THE REWIND — Greenland flies home and re-inflates",
+        "word": "'On this map' @ 4.40"
+      },
+      {
+        "at_s": 13.2,
+        "event": "PauseCard",
+        "word": "'Pause.' @ 13.20"
+      },
+      {
+        "at_s": 18.6,
+        "event": "Greenland tears off and starts falling south",
+        "word": "'slide' @ 18.79"
+      },
+      {
+        "at_s": 25.2,
+        "event": "it LANDS on Africa at true size; counter reaches x1.0",
+        "word": "'its real size.' @ 25.00"
+      },
+      {
+        "at_s": 26.0,
+        "event": "area chips resolve to 2.2M / 30.4M km2",
+        "word": "'Two million square kilometres' @ 26.00"
+      },
+      {
+        "at_s": 31.2,
+        "event": "the 14x BIGGER stamp punches in",
+        "word": "'fourteen' @ 31.27"
+      },
+      {
+        "at_s": 34.5,
+        "event": "Canada and Russia tear off the north",
+        "word": "'Canada' @ 34.76, 'Russia' @ 35.41"
+      },
+      {
+        "at_s": 39.6,
+        "event": "loop restore begins — after the payoff line has landed",
+        "word": "'the bigger the lie.' @ 39.55"
+      }
+    ]
+  }
+}

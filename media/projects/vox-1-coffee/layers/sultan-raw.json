@@ -1,0 +1,9 @@
+{
+  "prompt": "17th century engraving portrait of a stern Ottoman sultan with large turban and beard, upper body, detailed crosshatch etching style, sepia ink, isolated on a plain pure white background",
+  "model": "gemini-3.1-flash-image",
+  "aspect_ratio": "1:1",
+  "image_size": "1K",
+  "seed": null,
+  "refs": [],
+  "created": "2026-07-14T17:09:00"
+}

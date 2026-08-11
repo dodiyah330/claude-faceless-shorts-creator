@@ -1,0 +1,14 @@
+{
+  "model": "fal-ai/bytedance/seedance/v1.5/pro/image-to-video",
+  "payload": {
+    "prompt": "The small blue clay character with the mustard-yellow knit scarf walks slowly away from the camera along the narrow dirt path through the soft green meadow, toward the tiny glowing doorway on the far horizon. Gentle breeze moves the grass and flowers, soft morning light. Camera holds nearly still, a very slow drift forward. The character's body, scarf and proportions stay exactly consistent throughout, no morphing. Minimalist surreal 3D render style throughout, calm contemplative mood.",
+    "aspect_ratio": "auto",
+    "duration": "7",
+    "resolution": "1080p",
+    "generate_audio": false,
+    "image_url": "https://v3b.fal.media/files/b/0aa23e89/MGjqxrSWQlx-Bj7keovaZ_04-meadow-again.png"
+  },
+  "request_id": "019f61aa-f152-7901-af7b-289c67a1bcb5",
+  "source_url": "https://v3b.fal.media/files/b/0aa23ea0/7eHjcpEuO5i9S7EGBbDxw_video.mp4",
+  "created": "2026-07-14T20:29:04"
+}

@@ -1,0 +1,691 @@
+{
+  "id": "short-9-chords",
+  "title": "The 4 Chords In Every Hit",
+  "composition": "Short9Chords",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 42
+  },
+  "voiceStatus": "elevenlabs:TX3LPaxmHKxFdv7VOQHJ",
+  "voicePlan": "elevenlabs:TX3LPaxmHKxFdv7VOQHJ",
+  "vo": [
+    {
+      "beat": "hook",
+      "text": "Almost every song you love uses the same four chords.",
+      "start": 0.4,
+      "end": 3.64,
+      "words": [
+        {
+          "w": "Almost",
+          "start": 0.4,
+          "end": 0.76
+        },
+        {
+          "w": "every",
+          "start": 0.83,
+          "end": 1.027
+        },
+        {
+          "w": "song",
+          "start": 1.085,
+          "end": 1.271
+        },
+        {
+          "w": "you",
+          "start": 1.317,
+          "end": 1.398
+        },
+        {
+          "w": "love",
+          "start": 1.468,
+          "end": 1.654
+        },
+        {
+          "w": "uses",
+          "start": 1.712,
+          "end": 1.956
+        },
+        {
+          "w": "the",
+          "start": 2.002,
+          "end": 2.072
+        },
+        {
+          "w": "same",
+          "start": 2.118,
+          "end": 2.385
+        },
+        {
+          "w": "four",
+          "start": 2.443,
+          "end": 2.652
+        },
+        {
+          "w": "chords.",
+          "start": 2.722,
+          "end": 3.651
+        }
+      ]
+    },
+    {
+      "beat": "setup",
+      "text": "C. G. A minor. F.",
+      "start": 4.6,
+      "end": 6.36,
+      "words": [
+        {
+          "w": "C.",
+          "start": 4.6,
+          "end": 4.879
+        },
+        {
+          "w": "G.",
+          "start": 4.925,
+          "end": 5.25
+        },
+        {
+          "w": "A",
+          "start": 5.285,
+          "end": 5.32
+        },
+        {
+          "w": "minor.",
+          "start": 5.389,
+          "end": 5.842
+        },
+        {
+          "w": "F.",
+          "start": 6.121,
+          "end": 6.365
+        }
+      ]
+    },
+    {
+      "beat": "setup",
+      "text": "In theory: one, five, six, four.",
+      "start": 9.0,
+      "end": 11.96,
+      "words": [
+        {
+          "w": "In",
+          "start": 9.0,
+          "end": 9.22
+        },
+        {
+          "w": "theory:",
+          "start": 9.289,
+          "end": 9.799
+        },
+        {
+          "w": "one,",
+          "start": 9.972,
+          "end": 10.32
+        },
+        {
+          "w": "five,",
+          "start": 10.493,
+          "end": 10.956
+        },
+        {
+          "w": "six,",
+          "start": 11.106,
+          "end": 11.535
+        },
+        {
+          "w": "four.",
+          "start": 11.709,
+          "end": 12.75
+        }
+      ]
+    },
+    {
+      "beat": "quiz",
+      "text": "Pause. Where have you heard this?",
+      "start": 12.8,
+      "end": 16.05,
+      "words": [
+        {
+          "w": "Pause.",
+          "start": 12.8,
+          "end": 13.334
+        },
+        {
+          "w": "Where",
+          "start": 14.031,
+          "end": 14.263
+        },
+        {
+          "w": "have",
+          "start": 14.286,
+          "end": 14.391
+        },
+        {
+          "w": "you",
+          "start": 14.425,
+          "end": 14.507
+        },
+        {
+          "w": "heard",
+          "start": 14.576,
+          "end": 14.797
+        },
+        {
+          "w": "this?",
+          "start": 14.843,
+          "end": 16.051
+        }
+      ]
+    },
+    {
+      "beat": "reveal",
+      "text": "Let It Be. With or Without You. No Woman No Cry.",
+      "start": 16.2,
+      "end": 20.96,
+      "words": [
+        {
+          "w": "Let",
+          "start": 16.2,
+          "end": 16.408
+        },
+        {
+          "w": "It",
+          "start": 16.44,
+          "end": 16.494
+        },
+        {
+          "w": "Be.",
+          "start": 16.55,
+          "end": 16.92
+        },
+        {
+          "w": "With",
+          "start": 17.575,
+          "end": 17.836
+        },
+        {
+          "w": "or",
+          "start": 17.946,
+          "end": 18.098
+        },
+        {
+          "w": "Without",
+          "start": 18.153,
+          "end": 18.425
+        },
+        {
+          "w": "You.",
+          "start": 18.47,
+          "end": 18.764
+        },
+        {
+          "w": "No",
+          "start": 19.419,
+          "end": 19.571
+        },
+        {
+          "w": "Woman",
+          "start": 19.658,
+          "end": 19.942
+        },
+        {
+          "w": "No",
+          "start": 20.106,
+          "end": 20.259
+        },
+        {
+          "w": "Cry.",
+          "start": 20.335,
+          "end": 21.35
+        }
+      ]
+    },
+    {
+      "beat": "reveal",
+      "text": "Don't Stop Believin'. Someone Like You. All Too Well.",
+      "start": 21.4,
+      "end": 25.74,
+      "words": [
+        {
+          "w": "Don't",
+          "start": 21.4,
+          "end": 21.654
+        },
+        {
+          "w": "Stop",
+          "start": 21.689,
+          "end": 21.92
+        },
+        {
+          "w": "Believin'.",
+          "start": 21.967,
+          "end": 22.522
+        },
+        {
+          "w": "Someone",
+          "start": 22.904,
+          "end": 23.24
+        },
+        {
+          "w": "Like",
+          "start": 23.274,
+          "end": 23.448
+        },
+        {
+          "w": "You.",
+          "start": 23.483,
+          "end": 23.841
+        },
+        {
+          "w": "All",
+          "start": 24.651,
+          "end": 24.836
+        },
+        {
+          "w": "Too",
+          "start": 24.894,
+          "end": 25.021
+        },
+        {
+          "w": "Well.",
+          "start": 25.079,
+          "end": 25.75
+        }
+      ]
+    },
+    {
+      "beat": "reveal",
+      "text": "Same four chords. Every single time.",
+      "start": 25.8,
+      "end": 28.8,
+      "words": [
+        {
+          "w": "Same",
+          "start": 25.8,
+          "end": 26.102
+        },
+        {
+          "w": "four",
+          "start": 26.16,
+          "end": 26.346
+        },
+        {
+          "w": "chords.",
+          "start": 26.415,
+          "end": 26.938
+        },
+        {
+          "w": "Every",
+          "start": 27.089,
+          "end": 27.367
+        },
+        {
+          "w": "single",
+          "start": 27.414,
+          "end": 27.692
+        },
+        {
+          "w": "time.",
+          "start": 27.727,
+          "end": 28.819
+        }
+      ]
+    },
+    {
+      "beat": "twist",
+      "text": "Now just start on the sixth instead.",
+      "start": 29.2,
+      "end": 31.78,
+      "words": [
+        {
+          "w": "Now",
+          "start": 29.2,
+          "end": 29.386
+        },
+        {
+          "w": "just",
+          "start": 29.444,
+          "end": 29.595
+        },
+        {
+          "w": "start",
+          "start": 29.618,
+          "end": 29.827
+        },
+        {
+          "w": "on",
+          "start": 29.862,
+          "end": 29.92
+        },
+        {
+          "w": "the",
+          "start": 29.943,
+          "end": 30.013
+        },
+        {
+          "w": "sixth",
+          "start": 30.059,
+          "end": 30.349
+        },
+        {
+          "w": "instead.",
+          "start": 30.396,
+          "end": 31.801
+        }
+      ]
+    },
+    {
+      "beat": "twist",
+      "text": "Same four keys. Completely different song.",
+      "start": 32.4,
+      "end": 34.95,
+      "words": [
+        {
+          "w": "Same",
+          "start": 32.4,
+          "end": 32.702
+        },
+        {
+          "w": "four",
+          "start": 32.748,
+          "end": 32.911
+        },
+        {
+          "w": "keys.",
+          "start": 32.969,
+          "end": 33.398
+        },
+        {
+          "w": "Completely",
+          "start": 33.549,
+          "end": 33.956
+        },
+        {
+          "w": "different",
+          "start": 33.979,
+          "end": 34.223
+        },
+        {
+          "w": "song.",
+          "start": 34.258,
+          "end": 34.954
+        }
+      ]
+    },
+    {
+      "beat": "twist",
+      "text": "Africa. Apologize.",
+      "start": 35.4,
+      "end": 37.36,
+      "words": [
+        {
+          "w": "Africa.",
+          "start": 35.4,
+          "end": 36.069
+        },
+        {
+          "w": "Apologize.",
+          "start": 36.386,
+          "end": 37.35
+        }
+      ]
+    },
+    {
+      "beat": "payoff",
+      "text": "Four chords. That's the whole trick.",
+      "start": 37.4,
+      "end": 39.62,
+      "words": [
+        {
+          "w": "Four",
+          "start": 37.4,
+          "end": 37.655
+        },
+        {
+          "w": "chords.",
+          "start": 37.713,
+          "end": 38.224
+        },
+        {
+          "w": "That's",
+          "start": 38.468,
+          "end": 38.7
+        },
+        {
+          "w": "the",
+          "start": 38.735,
+          "end": 38.805
+        },
+        {
+          "w": "whole",
+          "start": 38.84,
+          "end": 38.991
+        },
+        {
+          "w": "trick.",
+          "start": 39.014,
+          "end": 39.629
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "id": "hook",
+      "start": 0.0,
+      "end": 4.0,
+      "visual": "frame-0 composed: keyboard with all 4 chords' keys lit, chips C G Am F, title; punch-in settles 1.06 -> 1"
+    },
+    {
+      "id": "setup",
+      "start": 4.0,
+      "end": 12.4,
+      "visual": "keys reset; each chord plays in turn — triad lights, chip stamps, roman numeral (I V vi IV) appears beneath"
+    },
+    {
+      "id": "quiz",
+      "start": 12.4,
+      "end": 16.2,
+      "visual": "PauseCard 'where have you heard this?'; the 4 chips stay lit"
+    },
+    {
+      "id": "reveal",
+      "start": 16.2,
+      "end": 28.8,
+      "visual": "progression cycles on loop; a song title + artist stamps in on each chord, stacking a list of 6"
+    },
+    {
+      "id": "twist",
+      "start": 28.8,
+      "end": 39.0,
+      "visual": "list clears; SAME four keys but the loop ROTATES to start on Am (vi-IV-I-V); roman numerals re-order in place; Africa + Apologize stamp"
+    },
+    {
+      "id": "loop",
+      "start": 39.0,
+      "end": 42.0,
+      "visual": "rotation unwinds, chips return to C G Am F, title fades back -> last frame == frame 0. NO comment-bait CTA"
+    }
+  ],
+  "piano": {
+    "note": "ONE SOURCE OF TRUTH. The TSX lights keys from this schedule and sfx-plan.json places the synth one-shots at the same at_s, so the sound cannot drift from the picture. Only the triad is lit on screen; gen_chords.py also plays a bass root below (audio-only).",
+    "keyboardRange": [
+      "C3",
+      "C5"
+    ],
+    "chords": {
+      "C": {
+        "sfx_id": "piano-c-maj",
+        "roman": "I",
+        "label": "C",
+        "triad": [
+          "C4",
+          "E4",
+          "G4"
+        ]
+      },
+      "G": {
+        "sfx_id": "piano-g-maj",
+        "roman": "V",
+        "label": "G",
+        "triad": [
+          "G3",
+          "B3",
+          "D4"
+        ]
+      },
+      "Am": {
+        "sfx_id": "piano-a-min",
+        "roman": "vi",
+        "label": "Am",
+        "triad": [
+          "A3",
+          "C4",
+          "E4"
+        ]
+      },
+      "F": {
+        "sfx_id": "piano-f-maj",
+        "roman": "IV",
+        "label": "F",
+        "triad": [
+          "F3",
+          "A3",
+          "C4"
+        ]
+      }
+    },
+    "progression": [
+      "C",
+      "G",
+      "Am",
+      "F"
+    ],
+    "rotation": [
+      "Am",
+      "F",
+      "C",
+      "G"
+    ],
+    "schedule": [
+      {
+        "at_s": 4.6,
+        "chord": "C",
+        "beat": "setup",
+        "cue": "named in VO"
+      },
+      {
+        "at_s": 5.9,
+        "chord": "G",
+        "beat": "setup",
+        "cue": "named in VO"
+      },
+      {
+        "at_s": 7.2,
+        "chord": "Am",
+        "beat": "setup",
+        "cue": "named in VO"
+      },
+      {
+        "at_s": 8.5,
+        "chord": "F",
+        "beat": "setup",
+        "cue": "named in VO"
+      },
+      {
+        "at_s": 16.4,
+        "chord": "C",
+        "beat": "reveal",
+        "song": "Let It Be",
+        "artist": "The Beatles"
+      },
+      {
+        "at_s": 17.9,
+        "chord": "G",
+        "beat": "reveal",
+        "song": "With or Without You",
+        "artist": "U2"
+      },
+      {
+        "at_s": 19.4,
+        "chord": "Am",
+        "beat": "reveal",
+        "song": "No Woman No Cry",
+        "artist": "Bob Marley"
+      },
+      {
+        "at_s": 20.9,
+        "chord": "F",
+        "beat": "reveal"
+      },
+      {
+        "at_s": 22.4,
+        "chord": "C",
+        "beat": "reveal",
+        "song": "Don't Stop Believin'",
+        "artist": "Journey"
+      },
+      {
+        "at_s": 23.9,
+        "chord": "G",
+        "beat": "reveal",
+        "song": "Someone Like You",
+        "artist": "Adele"
+      },
+      {
+        "at_s": 25.4,
+        "chord": "Am",
+        "beat": "reveal",
+        "song": "All Too Well",
+        "artist": "Taylor Swift"
+      },
+      {
+        "at_s": 26.9,
+        "chord": "F",
+        "beat": "reveal"
+      },
+      {
+        "at_s": 30.0,
+        "chord": "Am",
+        "beat": "twist",
+        "cue": "the rotation begins — same keys, new starting point"
+      },
+      {
+        "at_s": 31.5,
+        "chord": "F",
+        "beat": "twist"
+      },
+      {
+        "at_s": 33.0,
+        "chord": "C",
+        "beat": "twist"
+      },
+      {
+        "at_s": 34.5,
+        "chord": "G",
+        "beat": "twist"
+      },
+      {
+        "at_s": 36.0,
+        "chord": "Am",
+        "beat": "twist",
+        "song": "Africa",
+        "artist": "Toto"
+      },
+      {
+        "at_s": 37.5,
+        "chord": "F",
+        "beat": "twist",
+        "song": "Apologize",
+        "artist": "OneRepublic"
+      },
+      {
+        "at_s": 39.6,
+        "chord": "C",
+        "beat": "loop",
+        "cue": "resolves home as the loop dissolves into frame 0"
+      }
+    ]
+  }
+}

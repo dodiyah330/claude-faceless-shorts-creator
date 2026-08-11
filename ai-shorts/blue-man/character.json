@@ -1,0 +1,38 @@
+{
+  "name": "blue-man",
+  "role": "THE LOCKED REFERENCE — the recurring character every ai-video shot drives from",
+  "rule": "NEVER generate this character from text twice. Every still that needs him is gen_image.py --ref character.png; every clip is image-to-video from a frame that already contains him. Re-deriving him from the prompt is a bug.",
+  "image": "character.png",
+  "locked": "2026-07-14",
+  "approved_first_try": true,
+  "video_model": {
+    "endpoint": "fal-ai/bytedance/seedance/v1.5/pro/image-to-video",
+    "picked_by": "human eye, 4-panel bake-off grid, 2026-07-14",
+    "defaults": {"resolution": "1080p", "generate_audio": false, "aspect_ratio": "auto"},
+    "cost_per_second_1080p_usd": 0.0583
+  },
+  "design": {
+    "body": "matte clay-like cobalt blue, smooth rounded simplified forms, minimalist 3D sculpture",
+    "head": "completely smooth and featureless — no eyes, no mouth, no ears, no hair",
+    "accessory": "exactly ONE: chunky mustard-yellow knit scarf around the neck (his identity marker — must appear in every shot)",
+    "palette": {
+      "body_blue": "#4F6ABF (sampled; #3F5AA9 shadow - #5B77CA lit)",
+      "scarf_yellow": "#D2A854 (sampled)",
+      "studio_backdrop": "#CEC4BB (sampled)"
+    },
+    "proportions": "childlike ~4 heads tall, oversized rounded head, mitten hands, stubby legs, no neck taper"
+  },
+  "generation": {
+    "prompt": "A single stylized faceless humanoid character, full body, standing centered in a relaxed neutral pose, arms at his sides, front view. His body is matte clay-like cobalt blue with smooth rounded simplified forms, like a high-quality minimalist low-poly sculpture. His head is completely smooth and featureless - no eyes, no mouth, no ears, no hair. He wears exactly one accessory: a chunky mustard-yellow knit scarf around his neck. Soft diffused studio lighting, gentle ambient occlusion, plain warm pale-grey seamless studio backdrop, soft contact shadow under his feet. Minimalist 3D render, clean silhouette, high quality, no text, no watermark.",
+    "model": "gemini-3-pro-image",
+    "aspect_ratio": "9:16",
+    "image_size": "2K",
+    "seed": null,
+    "created": "2026-07-14T20:01:58"
+  },
+  "shot_workflow": [
+    "1. start frame: gen_image.py --ref ai-shorts/blue-man/character.png --prompt '<the same faceless blue clay character with his mustard scarf, in SCENE...>' -> shots/NN-slug.png",
+    "2. clip: image-to-video from that start frame (gen_clip.py --set image_url=... or bakeoff_clip.py --ref ...)",
+    "3. loop shots: models with an end-frame input (seedance end_image_url, kling tail_image_url) get the SAME frame as start and end — frame 0 == last frame is a constraint we hand the model, not luck"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "model": "fal-ai/bytedance/seedance/v1.5/pro/image-to-video",
+  "payload": {
+    "prompt": "The blue clay character stands at the base of the enormous glowing stone doorway, one arm lifted toward the warm light. He slowly lowers his arm and takes two calm steps forward into the wall of golden light, the light growing brighter and wrapping around him as he begins to pass through. Camera slowly pushes in behind him. The character's body, scarf and proportions stay exactly consistent throughout, no morphing. Minimalist surreal 3D render style throughout, calm contemplative mood.",
+    "aspect_ratio": "auto",
+    "duration": "6",
+    "resolution": "1080p",
+    "generate_audio": false,
+    "image_url": "https://v3b.fal.media/files/b/0aa23e88/Uzd5MLgZtRbDoceP_dCsF_03-threshold.png"
+  },
+  "request_id": "019f61aa-f156-7300-ad98-c8ea700f9f72",
+  "source_url": "https://v3b.fal.media/files/b/0aa23e93/OO0dM-k5-QS7y6sH0M44P_video.mp4",
+  "created": "2026-07-14T20:28:39"
+}

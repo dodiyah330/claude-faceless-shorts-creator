@@ -1,0 +1,101 @@
+{
+  "note": "Generation recipes for the shared MUSIC library (assets/music/). SOURCE OF TRUTH for reusable, generically-named background beds. tools/gen_music.py reads this, generates any MISSING clip via the ElevenLabs Music API (force_instrumental), loudness-normalizes it to a bed level, and writes assets/music/catalog.json. Beds are meant to sit UNDER Hasan's voice as a continuous, ducked bed (tools/mix_music.py handles the ducking). Brand taste (brand.md §10): calm/premium (Linear/Anthropic/Vercel) — subtle, felt-not-heard, no hype, no big drops, consistent throughout so it never distracts from the teaching. duration_s here is the TEST length; regenerate the chosen bed at full video length with `--only <id> --length <ms>`.",
+  "defaults": {
+    "model": "music_v2",
+    "force_instrumental": true,
+    "target_lufs": -20.0,
+    "ceiling_dbfs": -1.5,
+    "output_format": "mp3_44100_128"
+  },
+  "beds": [
+    {
+      "id": "ambient-pad",
+      "category": "ambient",
+      "duration_s": 63,
+      "tags": [
+        "ambient",
+        "pad",
+        "calm",
+        "minimal",
+        "no-drums",
+        "premium",
+        "bed"
+      ],
+      "prompt": "A minimal ambient background bed for a premium product film. Soft, slowly evolving warm synth pads, airy and spacious, with no drums and no foreground melody. Calm, understated and consistent from start to finish, like the quiet music behind an Apple or Anthropic keynote. Designed to sit gently under a spoken voiceover: no build-ups, no drops, no sudden changes, nothing that grabs attention. Slow and atmospheric, roughly 70 BPM feel, instrumental."
+    },
+    {
+      "id": "tech-pulse",
+      "category": "tech",
+      "duration_s": 63,
+      "tags": [
+        "tech",
+        "pulse",
+        "arp",
+        "focus",
+        "forward-motion",
+        "premium",
+        "bed"
+      ],
+      "prompt": "Minimal modern tech background music for a clean software product demo. A gentle, steady pulsing synth arpeggio over a soft warm bassline, with light subtle percussion or none at all. Calm and focused with a quiet sense of forward motion, understated and consistent, never hype. No vocals, no big drops, no fills. Designed to sit under a voiceover, around 90 BPM, restrained and premium, instrumental."
+    },
+    {
+      "id": "lofi-warm",
+      "category": "lofi",
+      "duration_s": 63,
+      "tags": [
+        "lofi",
+        "downtempo",
+        "warm",
+        "cozy",
+        "friendly",
+        "bed"
+      ],
+      "prompt": "A warm lo-fi background beat for a friendly tutorial. Mellow soft Rhodes and piano chords, gentle dusty low-key drums, warm rounded bass. Relaxed, cozy and low energy, understated and consistent, sitting comfortably under a spoken voiceover. Around 75 BPM, no vocals, no sudden fills or transitions, smooth and unobtrusive, instrumental."
+    },
+    {
+      "id": "cinematic-min",
+      "category": "cinematic",
+      "duration_s": 63,
+      "tags": [
+        "cinematic",
+        "minimal",
+        "piano",
+        "pad",
+        "reflective",
+        "premium",
+        "bed"
+      ],
+      "prompt": "A sparse, minimal cinematic underscore. Soft felt-piano notes with airy pads and lots of space between the phrases, calm and gently reflective, premium and understated. No drums and no vocals, slow and quiet, designed to sit under a voiceover. Emotional but never dramatic, no swells and no trailer hits, consistent throughout, instrumental."
+    },
+    {
+      "id": "lullaby-tender",
+      "category": "lullaby",
+      "duration_s": 57,
+      "tags": [
+        "lullaby",
+        "music-box",
+        "piano",
+        "tender",
+        "storybook",
+        "emotional",
+        "bed"
+      ],
+      "prompt": "A tender storybook lullaby background bed for a children's bedtime story. Soft delicate music box and gentle felt-piano with warm strings underneath, slow, comforting and emotional, a little wistful and then warm and reassuring. No drums, no vocals, lots of gentle space between phrases, designed to sit softly under a narrator's voice. Around 65 BPM, soothing and consistent, instrumental."
+    },
+    {
+      "id": "docu-pluck",
+      "category": "documentary",
+      "duration_s": 63,
+      "tags": [
+        "documentary",
+        "pizzicato",
+        "pluck",
+        "curious",
+        "explainer",
+        "light-percussion",
+        "bed"
+      ],
+      "prompt": "A curious documentary explainer background bed. Playful pizzicato strings and soft marimba plucks over a gentle pad, with very light brushed hand percussion, understated and steady. The mood of a Vox or New York Times explainer: inquisitive, warm, intelligent, never comedic. Designed to sit under a spoken voiceover: consistent energy, no build-ups, no drops, no foreground melody hooks. Around 95 BPM, instrumental."
+    }
+  ]
+}

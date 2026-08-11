@@ -1,0 +1,9 @@
+{
+  "prompt": "Archival 17th century engraving of a bustling Ottoman coffee house interior, men in robes drinking coffee, detailed crosshatch etching, aged sepia paper print, slightly worn edges",
+  "model": "gemini-3.1-flash-image",
+  "aspect_ratio": "16:9",
+  "image_size": "1K",
+  "seed": null,
+  "refs": [],
+  "created": "2026-07-14T16:16:15"
+}
