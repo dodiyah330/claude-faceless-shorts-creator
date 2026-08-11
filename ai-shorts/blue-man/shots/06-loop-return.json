@@ -1,0 +1,15 @@
+{
+  "model": "fal-ai/bytedance/seedance/v1.5/pro/image-to-video",
+  "payload": {
+    "prompt": "The single blue clay character with the mustard-yellow knit scarf walks slowly and steadily forward, away from the camera, across the pale desert toward the distant glowing stone doorway. As he walks he gets gradually smaller in frame and the camera drifts gently forward after him, the arch slowly growing nearer, ending framed exactly like the final reference composition. There is EXACTLY ONE character in the scene for the entire shot - no other figures ever appear. Fine sand dust drifts in the warm golden-hour light. The character's body, scarf and proportions stay exactly consistent throughout, no morphing. Minimalist surreal 3D render style throughout, calm contemplative mood.",
+    "aspect_ratio": "auto",
+    "duration": "7",
+    "resolution": "1080p",
+    "generate_audio": false,
+    "image_url": "https://v3b.fal.media/files/b/0aa23f05/l4cGPbogG-xNmRKobaAsT_06-loop-return.png",
+    "end_image_url": "https://v3b.fal.media/files/b/0aa23e96/yAEbqn2gie9QjUbJv6Niy_01-desert-door-frame0.png"
+  },
+  "request_id": "019f61bb-e402-76d3-a4e9-b27f1ea77da7",
+  "source_url": "https://v3b.fal.media/files/b/0aa23f04/Dh2pU9tsjfFBbxaIExX1I_video.mp4",
+  "created": "2026-07-14T20:47:31"
+}

@@ -1,0 +1,65 @@
+{
+  "master": "ai-shorts/blue-man/output/blue-man-1-voiced.mp4",
+  "master_fps": 30,
+  "catalog": "media/library/sfx/catalog.json",
+  "render": {
+    "preview": "ai-shorts/blue-man/output/blue-man-1-voiced.mp4",
+    "out": "ai-shorts/blue-man/output/blue-man-1-sfx.mp4",
+    "duck": true
+  },
+  "notes": "Calm/premium per brand §10. CALIBRATION NOTE (this build, 2026-07-14): a gappy philosophical VO is NOT ch-5 dense narration - cues that land in VO gaps get no masking and no duck, so they need ~7-8 dB LESS than the ch-5 shorts table (measured: gap whooshes at -4 hit voice level -16 dB mean; correct is ~-24, i.e. gains -9..-13). Hero layer at the 15.5s step-through only. The 28-30.4s silence is deliberate - the breath before the payoff line.",
+  "events": [
+    {
+      "at_s": 2.9,
+      "sfx_id": "wind-soft",
+      "gain_db": -7,
+      "optional": true,
+      "cue": "VO gap after the hook line (2.95-4.4) - desert air, sets the world"
+    },
+    {
+      "at_s": 4.85,
+      "sfx_id": "whoosh-wind",
+      "gain_db": -9,
+      "cue": "shot 1 desert -> shot 2 snow cut at 5.0 (under 'A job. A person.')"
+    },
+    {
+      "at_s": 10.35,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -11,
+      "cue": "shot 2 snow -> shot 3 threshold cut at 10.4, lands in the VO gap 10.0-10.6"
+    },
+    {
+      "at_s": 14.4,
+      "sfx_id": "riser-soft",
+      "gain_db": -4,
+      "note": "HERO layer 1/2",
+      "cue": "under 'And you step through' (14.34-15.24), 1.36s riser peaks into the cut"
+    },
+    {
+      "at_s": 15.5,
+      "sfx_id": "warm-shimmer",
+      "gain_db": -3,
+      "note": "HERO layer 2/2",
+      "cue": "the other side reveals - meadow cut at 15.5, before 'And the other side...' (15.87)"
+    },
+    {
+      "at_s": 22.05,
+      "sfx_id": "whoosh-wind",
+      "gain_db": -6,
+      "cue": "meadow -> many-doors cut at 22.2 (VO seam 22.15/22.2)"
+    },
+    {
+      "at_s": 29.4,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -13,
+      "cue": "many-doors -> desert return cut at 29.5, inside the long silence 28.0-30.4 (no masking, keep low)"
+    },
+    {
+      "at_s": 34.5,
+      "sfx_id": "chime-magic",
+      "gain_db": -6,
+      "optional": true,
+      "cue": "grace note after the payoff 'The walking was the life.' (ends 34.15), fades into the loop settle"
+    }
+  ]
+}

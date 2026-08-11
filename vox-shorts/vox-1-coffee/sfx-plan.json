@@ -1,0 +1,41 @@
+{
+  "master": "remotion/out/Vox1Coffee-voiced.mp4",
+  "master_fps": 30,
+  "catalog": "media/library/sfx/catalog.json",
+  "render": {
+    "preview": "remotion/out/Vox1Coffee-voiced.mp4",
+    "out": "vox-shorts/vox-1-coffee/output/vox-1-sfx.mp4",
+    "end_s": 40.5,
+    "duck": true
+  },
+  "note": "Collage taste (vox engine, first real short): paper foley IS the diegesis — page-flips on placements, thuds on 'place' landings, pencil scribble on the route draw. Two hero moments with build-and-drop: the BANNED stamp (riser -> stamp-hit) and 'Revolutions.' (impact). Everything else sparse, optional, under the voice. Cue times derive from Vox1Coffee.tsx CUE frames, which are keyed to real ElevenLabs word times.",
+  "events": [
+    { "at_s": 1.05, "sfx_id": "impact-soft", "gain_db": -11, "shot": "hook", "cue": "cup 'place' lands on the paper (f32)" },
+    { "at_s": 1.8, "sfx_id": "pop-reveal", "gain_db": -13, "optional": true, "shot": "hook", "cue": "chapter chip pops (f55)" },
+
+    { "at_s": 4.65, "sfx_id": "whoosh-wind", "gain_db": -11, "shot": "origin", "cue": "camera starts the dive into the map (f138-205)" },
+    { "at_s": 5.37, "sfx_id": "page-flip", "gain_db": -9, "shot": "origin", "cue": "map 'place' lands (f161) — paper on paper, diegetic" },
+    { "at_s": 5.5, "sfx_id": "pop-reveal", "gain_db": -11, "shot": "origin", "cue": "ETHIOPIA chip pins, on 'Ethiopian' (f165)" },
+    { "at_s": 6.0, "sfx_id": "whoosh-soft", "gain_db": -13, "optional": true, "shot": "origin", "cue": "branch cutout slides in from the left (f180)" },
+
+    { "at_s": 13.17, "sfx_id": "pencil-scribble", "gain_db": -9, "shot": "travel", "cue": "dashed route draws Ethiopia -> Mocha, on 'crossed' (f395-450) — diegetic, this IS the action" },
+    { "at_s": 14.23, "sfx_id": "pop-reveal", "gain_db": -11, "shot": "travel", "cue": "MOCHA, YEMEN chip pins, on 'Yemen' (f427)" },
+
+    { "at_s": 19.2, "sfx_id": "whoosh-soft", "gain_db": -10, "shot": "ban", "cue": "camera widens as sultan slides in (f576-612)" },
+    { "at_s": 19.9, "sfx_id": "riser-soft", "gain_db": -12, "shot": "ban", "cue": "tension under 'Mecca banned it' — builds into the stamp", "note": "HERO 1a — build" },
+    { "at_s": 20.57, "sfx_id": "pop-reveal", "gain_db": -13, "optional": true, "shot": "ban", "cue": "MECCA chip pins (f617)" },
+    { "at_s": 20.87, "sfx_id": "stamp-hit", "gain_db": -6, "shot": "ban", "cue": "BANNED stamp slams, on 'banned' (f626)", "note": "HERO 1b — drop. The scene's whole point lands here." },
+    { "at_s": 22.4, "sfx_id": "pop-reveal", "gain_db": -13, "optional": true, "shot": "ban", "cue": "CAIRO chip pins, on 'Cairo' (f672)" },
+    { "at_s": 23.9, "sfx_id": "pop-reveal", "gain_db": -11, "shot": "ban", "cue": "CONSTANTINOPLE death-penalty chip pins, on 'sultan' (f717)" },
+
+    { "at_s": 25.7, "sfx_id": "whoosh-soft", "gain_db": -13, "optional": true, "shot": "coffeehouse", "cue": "camera settles back for the print (f770-815)" },
+    { "at_s": 28.67, "sfx_id": "page-flip", "gain_db": -9, "shot": "coffeehouse", "cue": "archival print 'place' lands with its tape, on 'coffeehouse' (f860)" },
+    { "at_s": 31.16, "sfx_id": "ui-click-soft", "gain_db": -13, "optional": true, "shot": "coffeehouse", "cue": "'Ideas.' strip lands (f935)" },
+    { "at_s": 31.66, "sfx_id": "ui-click-soft", "gain_db": -13, "optional": true, "shot": "coffeehouse", "cue": "'Gossip.' strip lands (f950)" },
+    { "at_s": 32.26, "sfx_id": "impact-soft", "gain_db": -8, "shot": "coffeehouse", "cue": "'Revolutions.' lands + highlight sweeps (f968)", "note": "HERO 2 — the line's payoff" },
+
+    { "at_s": 33.4, "sfx_id": "whoosh-wind", "gain_db": -13, "optional": true, "shot": "today", "cue": "camera pulls home to the page-1 wide (f1000-1050)" },
+    { "at_s": 34.67, "sfx_id": "impact-soft", "gain_db": -10, "shot": "today", "cue": "cup 'place' returns, on 'Today' (f1040)" },
+    { "at_s": 36.23, "sfx_id": "pop-reveal", "gain_db": -10, "shot": "today", "cue": "2.25-billion stat chip pins, on 'billion' (f1087)" }
+  ]
+}

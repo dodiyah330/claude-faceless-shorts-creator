@@ -1,0 +1,26 @@
+# secrets
+
+# dependencies / build output
+node_modules/
+remotion/out/
+__pycache__/
+*.pyc
+venv/
+
+# heavy regenerable per-short artifacts:
+# voice/ = cached ElevenLabs TTS lines, output/ = rendered videos.
+# Both are rebuilt by the pipeline; finals are linked from the README instead.
+shorts/*/voice/
+shorts/*/output/
+ai-shorts/*/voice/
+ai-shorts/*/output/
+vox-shorts/*/voice/
+vox-shorts/*/output/
+
+# ai-shorts working copies of generated clips — the canonical (committed) copies
+# live in media/projects/<name>/ where the composition reads them via staticFile()
+ai-shorts/*/shots/*.mp4
+ai-shorts/*/bakeoff/*.mp4
+
+# local editor config
+config.bat

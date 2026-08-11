@@ -1,0 +1,21 @@
+{
+  "master": "shorts/short-7-kids/output/short-7-voiced.mp4",
+  "master_fps": 30,
+  "catalog": "media/library/sfx/catalog.json",
+  "render": {
+    "preview": "shorts/short-7-kids/output/short-7-voiced.mp4",
+    "out": "shorts/short-7-kids/output/short-7-sfx.mp4",
+    "end_s": 55,
+    "duck": true
+  },
+  "events": [
+    { "at_s": 5.80,  "sfx_id": "sparkle-soft", "gain_db": -6,  "cue": "beat2 play — butterfly, 'chasing a butterfly'", "note": "whimsy (sits under the line)" },
+    { "at_s": 7.90,  "sfx_id": "sparkle-soft", "gain_db": -10, "optional": true, "cue": "on 'Wheee!' (7.98) — playful lift (rings in the gap)" },
+    { "at_s": 10.80, "sfx_id": "wind-soft",    "gain_db": -6,  "cue": "beat3 wander — trees tower, forest darkens", "note": "tonal shift into the dark (ambience under the line)" },
+    { "at_s": 21.40, "sfx_id": "owl-hoot",     "gain_db": -11, "cue": "beat5 scared — alone at night, after 'where are you?'", "note": "loneliness (exposed in the pause — kept soft)" },
+    { "at_s": 32.50, "sfx_id": "chime-magic",  "gain_db": -6,  "cue": "beat7 — on 'light.' (32.6): the firefly appears", "note": "HERO 1 layer a — the hope turn (right after the silent cry beat)" },
+    { "at_s": 32.55, "sfx_id": "sparkle-soft", "gain_db": -10, "cue": "beat7 firefly twinkle", "note": "HERO 1 layer b" },
+    { "at_s": 42.90, "sfx_id": "stream-soft",  "gain_db": -10, "optional": true, "cue": "beat8 — on 'stream...' (43.7), crossing the brook" },
+    { "at_s": 48.00, "sfx_id": "warm-shimmer", "gain_db": -6,  "cue": "beat9 — on 'Mama!' (48.1) sees her; blooms over 'wraps him up, warm' (49.8-50.7)", "note": "HERO 2 — the reunion glow, under the music swell" }
+  ]
+}

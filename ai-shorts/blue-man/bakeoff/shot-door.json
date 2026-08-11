@@ -1,0 +1,11 @@
+{
+  "prompt": "The exact same faceless blue clay character from the reference image, with his chunky mustard-yellow knit scarf, seen from behind at a slight three-quarter angle, mid-stride, walking across a vast pale-sand surreal desert toward an enormous freestanding stone doorway far ahead of him, the doorway glowing with warm light from within. Golden-hour light, one long soft shadow behind him, minimalist surreal 3D render style exactly matching the reference character, clean composition, no text, no watermark.",
+  "model": "gemini-3-pro-image",
+  "aspect_ratio": "9:16",
+  "image_size": "2K",
+  "seed": null,
+  "refs": [
+    "..\\ai-video\\blue-man\\character.png"
+  ],
+  "created": "2026-07-14T20:04:11"
+}

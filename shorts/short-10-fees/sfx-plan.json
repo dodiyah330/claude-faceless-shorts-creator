@@ -1,0 +1,33 @@
+{
+  "master": "remotion/out/Short10Fees-voiced.mp4",
+  "master_fps": 30,
+  "catalog": "media/library/sfx/catalog.json",
+  "render": {
+    "preview": "remotion/out/Short10Fees-voiced.mp4",
+    "out": "shorts/short-10-fees/output/short-10-sfx.mp4",
+    "end_s": 42,
+    "duck": true
+  },
+  "note": "100% library — nothing generated for this short. Two build-and-drops carry it (brand §10: layer only the 2-3 hero moments, everything else single and sparse): riser -> impact on the curves LANDING, and riser -> deep impact on the counter landing on $316,661. Every at_s is a cue in beats.json.money.cues, retimed to the REAL ElevenLabs word times in vo.gen.ts — the impacts land ON the word that names the number, not on the estimate. Gains keep the SFX under the ~-17 LUFS voice: payoffs -5/-6, transitions -7/-8, texture -9/-13.",
+  "events": [
+    { "at_s": 4.30, "sfx_id": "whoosh-reverse", "gain_db": -8, "shot": "setup", "cue": "THE REWIND — the finished chart unwinds back to year 0 as 'Two people' starts" },
+
+    { "at_s": 6.70, "sfx_id": "ui-click-soft", "gain_db": -14, "optional": true, "shot": "setup", "cue": "the deposits line starts drawing under 'Same five hundred a month'" },
+
+    { "at_s": 13.70, "sfx_id": "pop-reveal", "gain_db": -10, "shot": "quiz", "cue": "PauseCard enters exactly on the word 'Pause.' (13.70)" },
+    { "at_s": 13.90, "sfx_id": "clock-tick-soft", "gain_db": -15, "optional": true, "shot": "quiz", "cue": "the countdown ring runs (~3.7s)" },
+
+    { "at_s": 17.40, "sfx_id": "riser-soft", "gain_db": -10, "shot": "reveal", "cue": "HERO 1 (build) — the curves start growing on 'Forty years of compounding' (17.40)" },
+    { "at_s": 21.55, "sfx_id": "impact-soft", "gain_db": -6, "shot": "reveal", "cue": "HERO 1 (drop) — the curve heads LAND on $1.31M / $996K, right as he names them (21.30)" },
+
+    { "at_s": 23.44, "sfx_id": "pop-reveal", "gain_db": -11, "optional": true, "shot": "reveal", "cue": "the smaller pot's chip swells on 'nine hundred ninety six thousand' (23.44)" },
+
+    { "at_s": 26.00, "sfx_id": "riser-soft", "gain_db": -9, "shot": "reveal", "cue": "HERO 2 (build) — the counter starts running on 'That one percent cost him...' (26.00)" },
+    { "at_s": 28.85, "sfx_id": "impact-deep-soft", "gain_db": -5, "shot": "reveal", "cue": "HERO 2 (drop) — THE payoff: the counter lands on $316,661 under 'sixteen thousand dollars' (27.28-29.44). The loudest thing in the video after the voice." },
+
+    { "at_s": 30.70, "sfx_id": "whoosh-soft", "gain_db": -8, "shot": "twist", "cue": "the ticker gives way to the ShareBar on 'that's NOT one percent' (30.88)" },
+    { "at_s": 35.30, "sfx_id": "stamp-hit", "gain_db": -6, "shot": "twist", "cue": "HERO 3 — the 24% slice finishes eating into the pot, on 'twenty four percent' (33.97-34.78)" },
+
+    { "at_s": 39.40, "sfx_id": "whoosh-reverse", "gain_db": -9, "optional": true, "shot": "loop", "cue": "the loop restores frame 0 under 'gone.' (39.57) — rhymes with the rewind at 4.30" }
+  ]
+}

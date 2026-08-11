@@ -1,0 +1,11 @@
+{
+  "prompt": "Soft watercolor childrens storybook illustration, dreamy gentle color washes, hand-painted, soft feathered edges, tender mood. The SAME tiny fox cub Pip from the reference image (extra-fluffy orange-red fur, big bushy white-tipped tail, oversized round dark eyes, white muzzle and chest, gentle face). Pip stopped and looking up, ears drooping, the sky turned deep purple with the first stars appearing above the trees, a worried uncertain expression on his little face, quiet twilight.",
+  "model": "gemini-3-pro-image",
+  "aspect_ratio": "9:16",
+  "image_size": "2K",
+  "seed": null,
+  "refs": [
+    "shorts\\short-7-kids\\images\\pip-ref.png"
+  ],
+  "created": "2026-07-12T13:03:22"
+}

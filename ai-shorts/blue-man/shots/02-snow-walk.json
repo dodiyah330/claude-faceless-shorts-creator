@@ -1,0 +1,14 @@
+{
+  "model": "fal-ai/bytedance/seedance/v1.5/pro/image-to-video",
+  "payload": {
+    "prompt": "The small blue clay character with the mustard-yellow knit scarf walks slowly and steadily through gentle falling snow toward the glowing stone doorway far away on the horizon. Camera tracks smoothly behind him at a fixed distance, low over the snow. Snowflakes drift in the cold blue dusk light. The character's body, scarf and proportions stay exactly consistent throughout, no morphing. Minimalist surreal 3D render style throughout, calm contemplative mood.",
+    "aspect_ratio": "auto",
+    "duration": "6",
+    "resolution": "1080p",
+    "generate_audio": false,
+    "image_url": "https://v3b.fal.media/files/b/0aa23e94/78z9yJ-HbXvfyXhbiMluA_02-snow-walk.png"
+  },
+  "request_id": "019f61aa-f13f-7713-9717-ab25a5f8756b",
+  "source_url": "https://v3b.fal.media/files/b/0aa23e92/tjFf6r2WfWIG3cvpwLtbv_video.mp4",
+  "created": "2026-07-14T20:28:33"
+}

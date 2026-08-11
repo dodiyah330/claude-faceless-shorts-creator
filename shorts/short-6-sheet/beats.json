@@ -1,0 +1,572 @@
+{
+  "id": "short-6-sheet",
+  "title": "Excel Reads Your Mind",
+  "composition": "Short6Sheet",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 38
+  },
+  "voiceStatus": "elevenlabs:TX3LPaxmHKxFdv7VOQHJ",
+  "voicePlan": "elevenlabs:TX3LPaxmHKxFdv7VOQHJ",
+  "vo": [
+    {
+      "beat": "hook",
+      "text": "Stop filling spreadsheets by hand. Watch this.",
+      "start": 0.4,
+      "end": 3.86,
+      "words": [
+        {
+          "w": "Stop",
+          "start": 0.4,
+          "end": 0.695
+        },
+        {
+          "w": "filling",
+          "start": 0.764,
+          "end": 1.001
+        },
+        {
+          "w": "spreadsheets",
+          "start": 1.058,
+          "end": 1.58
+        },
+        {
+          "w": "by",
+          "start": 1.614,
+          "end": 1.739
+        },
+        {
+          "w": "hand.",
+          "start": 1.808,
+          "end": 2.182
+        },
+        {
+          "w": "Watch",
+          "start": 2.556,
+          "end": 2.817
+        },
+        {
+          "w": "this.",
+          "start": 2.862,
+          "end": 3.85
+        }
+      ]
+    },
+    {
+      "beat": "setup",
+      "text": "A hundred messy names — and you need just the first name from each.",
+      "start": 3.9,
+      "end": 8.4,
+      "words": [
+        {
+          "w": "A",
+          "start": 3.9,
+          "end": 4.039
+        },
+        {
+          "w": "hundred",
+          "start": 4.132,
+          "end": 4.411
+        },
+        {
+          "w": "messy",
+          "start": 4.457,
+          "end": 4.713
+        },
+        {
+          "w": "names",
+          "start": 4.771,
+          "end": 5.073
+        },
+        {
+          "w": "—",
+          "start": 5.247,
+          "end": 5.34
+        },
+        {
+          "w": "and",
+          "start": 5.781,
+          "end": 5.92
+        },
+        {
+          "w": "you",
+          "start": 5.978,
+          "end": 6.048
+        },
+        {
+          "w": "need",
+          "start": 6.094,
+          "end": 6.234
+        },
+        {
+          "w": "just",
+          "start": 6.28,
+          "end": 6.454
+        },
+        {
+          "w": "the",
+          "start": 6.489,
+          "end": 6.559
+        },
+        {
+          "w": "first",
+          "start": 6.617,
+          "end": 6.872
+        },
+        {
+          "w": "name",
+          "start": 6.919,
+          "end": 7.093
+        },
+        {
+          "w": "from",
+          "start": 7.116,
+          "end": 7.244
+        },
+        {
+          "w": "each.",
+          "start": 7.302,
+          "end": 8.405
+        }
+      ]
+    },
+    {
+      "beat": "setup",
+      "text": "The slow way? Retype them all day.",
+      "start": 9.4,
+      "end": 12.26,
+      "words": [
+        {
+          "w": "The",
+          "start": 9.4,
+          "end": 9.555
+        },
+        {
+          "w": "slow",
+          "start": 9.597,
+          "end": 9.803
+        },
+        {
+          "w": "way?",
+          "start": 9.854,
+          "end": 10.184
+        },
+        {
+          "w": "Retype",
+          "start": 10.578,
+          "end": 10.918
+        },
+        {
+          "w": "them",
+          "start": 10.939,
+          "end": 11.021
+        },
+        {
+          "w": "all",
+          "start": 11.053,
+          "end": 11.156
+        },
+        {
+          "w": "day.",
+          "start": 11.197,
+          "end": 12.25
+        }
+      ]
+    },
+    {
+      "beat": "reveal",
+      "text": "So type the first one yourself — Jane.",
+      "start": 12.3,
+      "end": 15.31,
+      "words": [
+        {
+          "w": "So",
+          "start": 12.3,
+          "end": 12.544
+        },
+        {
+          "w": "type",
+          "start": 12.613,
+          "end": 12.834
+        },
+        {
+          "w": "the",
+          "start": 12.869,
+          "end": 12.939
+        },
+        {
+          "w": "first",
+          "start": 12.985,
+          "end": 13.194
+        },
+        {
+          "w": "one",
+          "start": 13.252,
+          "end": 13.368
+        },
+        {
+          "w": "yourself",
+          "start": 13.391,
+          "end": 13.798
+        },
+        {
+          "w": "—",
+          "start": 13.949,
+          "end": 14.216
+        },
+        {
+          "w": "Jane.",
+          "start": 14.309,
+          "end": 15.319
+        }
+      ]
+    },
+    {
+      "beat": "reveal",
+      "text": "Now press Control E.",
+      "start": 15.4,
+      "end": 17.21,
+      "words": [
+        {
+          "w": "Now",
+          "start": 15.4,
+          "end": 15.644
+        },
+        {
+          "w": "press",
+          "start": 15.725,
+          "end": 15.969
+        },
+        {
+          "w": "Control",
+          "start": 16.015,
+          "end": 16.445
+        },
+        {
+          "w": "E.",
+          "start": 16.596,
+          "end": 17.211
+        }
+      ]
+    },
+    {
+      "beat": "reveal",
+      "text": "Excel spots the pattern and fills every row.",
+      "start": 17.4,
+      "end": 20.37,
+      "words": [
+        {
+          "w": "Excel",
+          "start": 17.4,
+          "end": 17.888
+        },
+        {
+          "w": "spots",
+          "start": 17.957,
+          "end": 18.248
+        },
+        {
+          "w": "the",
+          "start": 18.282,
+          "end": 18.352
+        },
+        {
+          "w": "pattern",
+          "start": 18.387,
+          "end": 18.689
+        },
+        {
+          "w": "and",
+          "start": 18.712,
+          "end": 18.782
+        },
+        {
+          "w": "fills",
+          "start": 18.828,
+          "end": 19.095
+        },
+        {
+          "w": "every",
+          "start": 19.211,
+          "end": 19.525
+        },
+        {
+          "w": "row.",
+          "start": 19.606,
+          "end": 20.372
+        }
+      ]
+    },
+    {
+      "beat": "reveal",
+      "text": "Zero formulas.",
+      "start": 21.1,
+      "end": 22.49,
+      "words": [
+        {
+          "w": "Zero",
+          "start": 21.1,
+          "end": 21.46
+        },
+        {
+          "w": "formulas.",
+          "start": 21.541,
+          "end": 22.493
+        }
+      ]
+    },
+    {
+      "beat": "twist",
+      "text": "And it's not just splitting names.",
+      "start": 24.4,
+      "end": 26.39,
+      "words": [
+        {
+          "w": "And",
+          "start": 24.4,
+          "end": 24.551
+        },
+        {
+          "w": "it's",
+          "start": 24.597,
+          "end": 24.713
+        },
+        {
+          "w": "not",
+          "start": 24.76,
+          "end": 24.899
+        },
+        {
+          "w": "just",
+          "start": 24.946,
+          "end": 25.085
+        },
+        {
+          "w": "splitting",
+          "start": 25.108,
+          "end": 25.468
+        },
+        {
+          "w": "names.",
+          "start": 25.526,
+          "end": 26.397
+        }
+      ]
+    },
+    {
+      "beat": "twist",
+      "text": "Show it one email…",
+      "start": 27.0,
+      "end": 28.49,
+      "words": [
+        {
+          "w": "Show",
+          "start": 27.0,
+          "end": 27.221
+        },
+        {
+          "w": "it",
+          "start": 27.267,
+          "end": 27.337
+        },
+        {
+          "w": "one",
+          "start": 27.406,
+          "end": 27.557
+        },
+        {
+          "w": "email…",
+          "start": 27.592,
+          "end": 28.486
+        }
+      ]
+    },
+    {
+      "beat": "twist",
+      "text": "and it writes the entire column.",
+      "start": 29.0,
+      "end": 31.41,
+      "words": [
+        {
+          "w": "and",
+          "start": 29.0,
+          "end": 29.151
+        },
+        {
+          "w": "it",
+          "start": 29.209,
+          "end": 29.267
+        },
+        {
+          "w": "writes",
+          "start": 29.302,
+          "end": 29.557
+        },
+        {
+          "w": "the",
+          "start": 29.604,
+          "end": 29.685
+        },
+        {
+          "w": "entire",
+          "start": 29.743,
+          "end": 30.126
+        },
+        {
+          "w": "column.",
+          "start": 30.173,
+          "end": 31.415
+        }
+      ]
+    },
+    {
+      "beat": "twist",
+      "text": "That's Excel reading your mind.",
+      "start": 32.0,
+      "end": 34.32,
+      "words": [
+        {
+          "w": "That's",
+          "start": 32.0,
+          "end": 32.302
+        },
+        {
+          "w": "Excel",
+          "start": 32.36,
+          "end": 32.708
+        },
+        {
+          "w": "reading",
+          "start": 32.789,
+          "end": 33.01
+        },
+        {
+          "w": "your",
+          "start": 33.057,
+          "end": 33.161
+        },
+        {
+          "w": "mind.",
+          "start": 33.207,
+          "end": 34.322
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "id": "hook",
+      "start": 0.0,
+      "end": 3.4,
+      "visual": "frame-0 composed: grid + col B first-names filled + Ctrl+E keycap + title; punch-in settle"
+    },
+    {
+      "id": "setup",
+      "start": 3.4,
+      "end": 12.0,
+      "visual": "grid resets: col A names, col B empty, B2 selected"
+    },
+    {
+      "id": "reveal",
+      "start": 12.0,
+      "end": 24.0,
+      "visual": "type 'Jane' in B2 -> Ctrl+E press -> col B cascade-fills top->bottom, green flash"
+    },
+    {
+      "id": "twist",
+      "start": 24.0,
+      "end": 35.0,
+      "visual": "type 'jane.doe@acme.com' in C2 -> Ctrl+E -> col C email column builds itself"
+    },
+    {
+      "id": "loop",
+      "start": 35.0,
+      "end": 38.0,
+      "visual": "grid resets to the intro composition (col C clears, title + Ctrl+E back) — loop blends into the hook; NO comment-bait CTA"
+    }
+  ],
+  "sheet": {
+    "theme": "excel",
+    "columns": [
+      {
+        "id": "A",
+        "header": "Full Name",
+        "width": 300
+      },
+      {
+        "id": "B",
+        "header": "First Name",
+        "width": 240
+      },
+      {
+        "id": "C",
+        "header": "Email",
+        "width": 380
+      }
+    ],
+    "rows": [
+      {
+        "A": "Jane Doe",
+        "B": "Jane",
+        "C": "jane.doe@acme.com"
+      },
+      {
+        "A": "Marcus Lee",
+        "B": "Marcus",
+        "C": "marcus.lee@acme.com"
+      },
+      {
+        "A": "Priya Patel",
+        "B": "Priya",
+        "C": "priya.patel@acme.com"
+      },
+      {
+        "A": "Chen Wei",
+        "B": "Chen",
+        "C": "chen.wei@acme.com"
+      },
+      {
+        "A": "Amir Hassan",
+        "B": "Amir",
+        "C": "amir.hassan@acme.com"
+      },
+      {
+        "A": "Sofia Rossi",
+        "B": "Sofia",
+        "C": "sofia.rossi@acme.com"
+      },
+      {
+        "A": "Liam Murphy",
+        "B": "Liam",
+        "C": "liam.murphy@acme.com"
+      },
+      {
+        "A": "Nina Kaur",
+        "B": "Nina",
+        "C": "nina.kaur@acme.com"
+      }
+    ],
+    "demo1": {
+      "targetCol": "B",
+      "exampleRow": 0,
+      "typeStartSec": 12.6,
+      "typeEndSec": 14.7,
+      "ctrlEPressSec": 16.0,
+      "cascadeStartSec": 17.6,
+      "cascadeRowStaggerSec": 0.18,
+      "cascadeEndSec": 20.4
+    },
+    "demo2": {
+      "targetCol": "C",
+      "exampleRow": 0,
+      "typeStartSec": 27.0,
+      "typeEndSec": 28.6,
+      "ctrlEPressSec": 29.0,
+      "cascadeStartSec": 29.4,
+      "cascadeRowStaggerSec": 0.16,
+      "cascadeEndSec": 31.5
+    }
+  }
+}

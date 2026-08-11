@@ -1,0 +1,87 @@
+{
+  "prompt": "The small blue clay character with the mustard-yellow knit scarf walks slowly and steadily across the pale desert toward the huge glowing stone doorway in the distance. Calm, contemplative pace, natural walk cycle. The camera tracks smoothly behind him at a fixed distance, low over the sand. Fine sand dust drifts in the warm golden-hour light. The character's body, scarf and proportions stay exactly consistent throughout, no morphing. Minimalist surreal 3D render style throughout.",
+  "ref": "ai-shorts/blue-man/bakeoff/shot-door.png",
+  "image_url": "https://v3b.fal.media/files/b/0aa23e04/1F6VX6OEuCJnEu-3uFpZe_shot-door.png",
+  "requested": {
+    "duration": 5.0,
+    "resolution": "1080p"
+  },
+  "total_derived_usd": 1.2416,
+  "models": [
+    {
+      "key": "seedance",
+      "model": "fal-ai/bytedance/seedance/v1.5/pro/image-to-video",
+      "payload": {
+        "prompt": "The small blue clay character with the mustard-yellow knit scarf walks slowly and steadily across the pale desert toward the huge glowing stone doorway in the distance. Calm, contemplative pace, natural walk cycle. The camera tracks smoothly behind him at a fixed distance, low over the sand. Fine sand dust drifts in the warm golden-hour light. The character's body, scarf and proportions stay exactly consistent throughout, no morphing. Minimalist surreal 3D render style throughout.",
+        "image_url": "https://v3b.fal.media/files/b/0aa23e04/1F6VX6OEuCJnEu-3uFpZe_shot-door.png",
+        "duration": "5",
+        "resolution": "1080p",
+        "aspect_ratio": "auto",
+        "generate_audio": false
+      },
+      "request_id": "019f6196-8de3-71f1-a228-eb05f95a225c",
+      "source_url": "https://v3b.fal.media/files/b/0aa23e0c/TlWkmRjBuBfAJRPJtK3eC_video.mp4",
+      "derived_cost_usd": 0.2916,
+      "billed_cost_usd": null,
+      "elapsed_s": 87.5,
+      "error": null,
+      "created": "2026-07-14T20:06:16"
+    },
+    {
+      "key": "kling",
+      "model": "fal-ai/kling-video/v2.5-turbo/pro/image-to-video",
+      "payload": {
+        "prompt": "The small blue clay character with the mustard-yellow knit scarf walks slowly and steadily across the pale desert toward the huge glowing stone doorway in the distance. Calm, contemplative pace, natural walk cycle. The camera tracks smoothly behind him at a fixed distance, low over the sand. Fine sand dust drifts in the warm golden-hour light. The character's body, scarf and proportions stay exactly consistent throughout, no morphing. Minimalist surreal 3D render style throughout.",
+        "image_url": "https://v3b.fal.media/files/b/0aa23e04/1F6VX6OEuCJnEu-3uFpZe_shot-door.png",
+        "duration": "5"
+      },
+      "request_id": "019f6196-8df3-7223-9ea6-3cfd251baab7",
+      "source_url": "https://v3b.fal.media/files/b/0aa23e0b/8LNPM2iPgjrkxYDkOj25M_output.mp4",
+      "derived_cost_usd": 0.35,
+      "billed_cost_usd": null,
+      "elapsed_s": 83.8,
+      "error": null,
+      "created": "2026-07-14T20:06:16"
+    },
+    {
+      "key": "veo-lite",
+      "model": "fal-ai/veo3.1/lite/image-to-video",
+      "payload": {
+        "prompt": "The small blue clay character with the mustard-yellow knit scarf walks slowly and steadily across the pale desert toward the huge glowing stone doorway in the distance. Calm, contemplative pace, natural walk cycle. The camera tracks smoothly behind him at a fixed distance, low over the sand. Fine sand dust drifts in the warm golden-hour light. The character's body, scarf and proportions stay exactly consistent throughout, no morphing. Minimalist surreal 3D render style throughout.",
+        "image_url": "https://v3b.fal.media/files/b/0aa23e04/1F6VX6OEuCJnEu-3uFpZe_shot-door.png",
+        "duration": "4s",
+        "resolution": "1080p",
+        "aspect_ratio": "auto",
+        "generate_audio": false
+      },
+      "request_id": "019f6196-8dcf-7c60-9ddb-a3fc0af65de9",
+      "source_url": "https://v3b.fal.media/files/b/0aa23e0c/cGr9D2CG6rFCXq9NzSJ1W_d337ab9b9b6743eca6e8d7916bfbeaf1.mp4",
+      "derived_cost_usd": 0.2,
+      "billed_cost_usd": null,
+      "elapsed_s": 92.6,
+      "error": null,
+      "created": "2026-07-14T20:06:16"
+    },
+    {
+      "key": "veo-fast",
+      "model": "fal-ai/veo3.1/fast/image-to-video",
+      "payload": {
+        "prompt": "The small blue clay character with the mustard-yellow knit scarf walks slowly and steadily across the pale desert toward the huge glowing stone doorway in the distance. Calm, contemplative pace, natural walk cycle. The camera tracks smoothly behind him at a fixed distance, low over the sand. Fine sand dust drifts in the warm golden-hour light. The character's body, scarf and proportions stay exactly consistent throughout, no morphing. Minimalist surreal 3D render style throughout.",
+        "image_url": "https://v3b.fal.media/files/b/0aa23e04/1F6VX6OEuCJnEu-3uFpZe_shot-door.png",
+        "duration": "4s",
+        "resolution": "1080p",
+        "aspect_ratio": "auto",
+        "generate_audio": false
+      },
+      "request_id": "019f619b-d4b1-72a3-8389-9517df9bea98",
+      "source_url": "https://v3b.fal.media/files/b/0aa23e2f/n8TOJIeO5bc17VSibcbk7_6df1d6e9b7f6463f93adab0e7508156f.mp4",
+      "derived_cost_usd": 0.4,
+      "billed_cost_usd": null,
+      "elapsed_s": 92.0,
+      "error": null,
+      "created": "2026-07-14T20:12:02"
+    }
+  ],
+  "grid": "ai-shorts/blue-man/bakeoff\\grid.mp4",
+  "created": "2026-07-14T20:06:19"
+}
